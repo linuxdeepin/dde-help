@@ -1,58 +1,56 @@
-# Deepin Operating System|common/deepin-system.svg|
+# Deepin Operating System|../common/deepin-system.svg|
+## Overview|../common/icon_overview.svg|
 
-## Overview|common/icon_overview.svg|
+deepin 15 is the Linux desktop operating system released by Deepin Technology Co., Ltd. on Dec. 2015. WPS Office, Sogou Input Method, Youdao Dic. and other deepin featured applications have been preinstalled in deepin. It allows you to experience a variety of recreational activities, but also to meet your daily needs. With continually improved and perfected functions, we believe deepin will be loved and used by more and more users.
 
-deepin 15 is the Linux desktop operating system released by Deepin Technology Co., Ltd. on　December 2015. WPS Office, Sogou Input Method and other deepin featured applications have been preinstalled in Deepin OS. It allows you to experience a variety of recreational activities, but also to meet your daily needs. With continually improved and perfected functions, we believe Deepin OS will be loved and used by more and more users.
-
-## Guide|common/icon_guide.svg|
+## Guide|../common/icon_guide.svg|
 
 ### Open Launcher and Control Center
-
-Corner navigation is set on four top corners of the desktop, and you can quickly open control center and launcher by it.
+Corner navigation is set on four corners of the desktop by default, and you can quickly open Control Center and Launcher by it.
 
 * Launcher can be opened by moving the mouse pointer over the upper left corner of the desktop. Click the mouse at any position to return to the desktop from launcher.
 
 * Control Center can be opened by moving the mouse pointer over the lower right corner of the desktop. Click the mouse at any position outside the panel to exit.
 
-> ![notes](icon/notes.svg): You also can reset the corner navigation of launcher and control center. For details, please refer to [Corner Navigation](#Corner Navigation).
+> ![notes](icon/notes.svg): You also can reset the corner navigation of Launcher and Control Center. Specific operations refer to [Corner Navigation](#Corner Navigation).
 
 ### Enter Shutdown Interface
+In shutdown interface, you can select to shut down, restart, log out, lock and so on.
 
-In shutdown interface, you can select to shutdown, restart, log out, lock and so on.
-
-![1|shutdown interface](png/shutdowninterface.png)
+![1|shutdowninterface](png/shutdowninterface.png)
 
 1. Move the mouse pointer over the lower right corner of the desktop to open Control Center.
-2. Click on ![Power](icon/power_icon.png) at the bottom of Control Center to enter the shutdown interface.
+2. Click on ![power](icon/power_icon.png) at the bottom of Control Center to enter the shutdown interface.
 3. If you want to exit the shutdown interface, please press ![Esc](icon/Esc.svg) on keyboard or click on the blank area by mouse.
+
+> ![notes](icon/notes.svg): You can also enter shutdown interface by clicking on shutdowninterface ![shutdowninterface](icon/shutdowninterface_icon.png) on Dock. 
 
 ### Boot and Shut down
 
 #### Boot
-
-Turn on the computer to start your work now!
-
-Press the power button after plugging in to boot your computer.
+Turn on the computer to start your work now! Press the power button after plugging in to boot your computer.
 
 #### Shut down
 
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Shut down** or press ![Enter](icon/Enter.svg) on keyboard.
 
-### Login
-
-After starting the computer, you need to create an account to log in before performing other operations.
+### Log In
+After booting, you need to create an account to log in before performing other operations.
 
 ![1|logininterface](png/logininterface.png)
 
 
 1. On login interface, input the account password.
-2. Press ![Enter](icon/Enter.svg) on keyboard or click on ![Login](icon/login_icon.png).
+2. Press ![Enter](icon/Enter.svg) on keyboard or click on !![login](icon/login_icon.png).
 
-> ![notes](icon/notes.svg): The default account is the username and password set in the installation process. You can create a new account after logging in, specific operation refers to [Create New Account](dman:///deepin-controlcenter#Create New Account).
+> ![notes](icon/notes.svg): The default account is the username and password set in the installation process. You can create a new account after logging in. Specific operations refer to [Create A New Account](dman:///dde-control-center#Create A New Account).
 
-* If there are several accounts set in the computer, the ![ Switch user](icon/changeusers_icon.png) will be displayed in the lower right corner of login interface. Click it to log in with another account, specific operation refers to [Switch User](#Switch User).
-* If you want to shutdown or restart, please click on ![Shut down](icon/shutdown_icon.png) to enter shutdown interface, specific operation refers to [Enter Shutdown Interface](#Enter Shutdown Interface).
+You also can execute the following operations:
+
+- If there are several accounts set in the computer, click on ![changeusers](icon/changeusers_icon.png) in the lower right corner of login interface to switch user account. Specific operations refer to  [Switch User](#Switch User).
+
+- If you want to shut down, restart or suspend, please click on ![shutdown](icon/shutdown_icon.png) to enter shutdown interface, specific operations refer to [Enter Shutdown Interface](#Enter Shutdown Interface).
 
 ### Lock and Unlock Screen
 
@@ -61,10 +59,9 @@ Lock the screen to protect your account from being used by others.
 ![1|lockinterface](png/lockinterface.png)
 
 #### Lock Screen
+Sometimes you need to leave the seat for a while during the work, you can lock the screen before leaving the seat if you don't want data to be modified or seen. Others can use their own accounts to log in.
 
-Sometimes you need to leave the seat for a while during the work, you can lock the screen before leaving the seat if you don't want data to be modified or seen.  Others can use their own accounts to log in.
-
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Lock**.
 
 > ![tips](icon/tips.svg): Press ![Super](icon/Super.svg)+![L](icon/L.svg) on keyboard to quickly lock your screen.
@@ -74,48 +71,45 @@ Sometimes you need to leave the seat for a while during the work, you can lock t
 You need to unlock screen after locked when reusing the computer.
 
 1. On lock interface, input the account password.
-2. Press ![Enter](icon/Enter.svg) on keyboard or click on ![Lock](icon/lock_icon.png).
+2. Press ![Enter](icon/Enter.svg) on keyboard or click on ![lock](icon/lock_icon.png).
 
 ### Log Out
 
 Clear the current account information by logging out. The computer will enter the login interface after logging out, then you can use another account to log in.
 
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Log out**.
 
 ### Restart
+Restart is to run you computer again after shutdown.
 
-Restart is to run you computer again by restarting it after shutdown.
-
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Restart**.
 
 ### Switch User
 
 If there are several accounts in your computer, after logging out or locking the screen, you can use another account to log in.
 
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Switch user** to view all accounts in your computer.
 3. Select an account.
 4. Input the account password.
-5. Press ![Enter](icon/Enter.svg) on keyboard or click on ![Login](icon/login_icon.png) to log in again.
+5. Press ![Enter](icon/Enter.svg) on keyboard or click on ![login](icon/login_icon.png) to log in again.
 
 ![1|changeinterface](png/changeinterface.png)
 
-### Suspend and Wake
-
+### Suspend and Wake Up
 #### Suspend
 
 Suspend mode is an power-saving mode. Computer will automatically be suspended if there is no operations for a long time. After the computer being suspended, the entire system will be running with low consumption.
 
-1. Click on ![Power](icon/power_icon.png) at the bottom of Control Center.
+1. Click on ![power](icon/power_icon.png) at the bottom of Control Center.
 2. Click on **Suspend**.
 
-> ![notes](icon/notes.svg): You can set the time for suspend mode according to your need, specific operation refers to [Power Conservation Operation](dman:///deepin-controlcenter#Power Conservation Operation).
+> ![notes](icon/notes.svg): You can set the time for suspend mode according to your need, specific operations refer to [Power Saving Operation](dman:///deepin-control_center#Power Saving Operation).
 
-#### Wake
-
-Your computer will restore to the previous working status after being woke up.
+#### Wake Up
+Your computer will quickly restore to the previous working status after woke up.
 
 If you want to restore to working status from suspend mode, you can:
 
@@ -123,15 +117,14 @@ If you want to restore to working status from suspend mode, you can:
 * Press any key on keyboard.
 * Quickly press the power button.
 
-## Desktop Environment|common/icon_desktopenvironment.svg|
+## Desktop Environment|../common/icon_desktopenvironment.svg|
 
 ![1|deepindesktop](png/deepindesktop.png)
 
 ### Dock
+Dock is usually displayed at the bottom of the desktop to help you fix frequently used applications.
 
-Dock is usually displayed at the bottom of the desktop to help you fix frequently used applications. You can find it from anywhere on your computer by the mouse.
-
-![1|Dock](png/taskbar.png)
+![1|taskbar](png/taskbar.png)
 
 <table class="block1">
     <caption>Icon Description</caption>
@@ -161,22 +154,29 @@ Dock is usually displayed at the bottom of the desktop to help you fix frequentl
             <td><img src="icon/systemfile_icon.png" alt="File Manager" class="inline" /></td>
             <td>Click to open file manager</td>
             <td class="blank"></td>
-            <td><img src="icon/network_icon.png" alt="Network Settings" class="inline" /></td>
+            <td><img src="icon/network_icon.png" alt="Network" class="inline" /></td>
             <td>Click to open the interface of network settings</td>
         </tr>
         <tr>
-            <td><img src="icon/sound_icon.png" alt="Sound Settings" class="inline" /></td>
+            <td><img src="icon/sound_icon.png" alt="Sound" class="inline" /></td>
             <td>Click to open the interface of sound settings</td>
             <td class="blank"></td>
             <td><img src="icon/deepinsystray_icon.png" alt="Notification Area" class="inline" /></td>
             <td>To display the running applications</td>
         </tr>
         <tr>
+            <td><img src="icon/shutdowninterface_icon.png" alt="Shutdown Interface" class="inline" /></td>
+            <td>Click to enter shutdown interface quickly.</td>
+            <td class="blank"></td>
             <td><img src="icon/datetime_icon.png" alt="Date and Time" class="inline" /></td>
             <td>Click to open the date and time interface</td>
-            <td class="blank"></td>
+        </tr>
+		<tr>
             <td><img src="icon/trash_icon.png" alt="Trash" class="inline" /></td>
             <td>Click to open the trash</td>
+            <td class="blank"></td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
@@ -190,31 +190,29 @@ Launcher helps you manage all applications installed in your system, and you can
 ![1|lanucher](png/lanucher.png)
 
 ### Control Center
-
-Control Center allows you to view and make basic system settings, including changing user account and setting screen display, etc. For details, please refer to the manual of **Control Center**.
+Control Center allows you to view and make basic system settings, including changing user account and setting screen display, etc.
 
 ![0|controlcenter](png/controlcenter.png)
 
 ### Window Manager
-
-窗口管理器可以在不同的工作区内展示不同的窗口内容，通过窗口管理器您可以对桌面窗口进行分组管理。
+You can display different window contents in different workspaces and manage desktop windows in groups by window manager.
 
 ![1|openworkspace](png/openworkspace.png)
 
 ### Trash
+You can find all deleted files in trash which can be resumed or emptied.
 
-All files deleted in the computer can be found in trash, they can be resumed or emptied.
-
-![1|trash](png/trash.png)
+*  Trash will be displayed on desktop if you switch to classic mode or efficient mode.
+*  Trash will be displayed on Dock if you switch to fashion mode.
 
 #### Restore Files
 
 You can restore files deleted by mistake by executing the following operations:
 
-1. Select file to restore in Trash.
+1. Select file to restore in trash.
 2. Click on **Restore**.
 
-> ![attention](icon/attention.svg): Restore is to restore the file in the trash to its original directory. But if empty operation has been executed in trash, then it is unable to restore the files in trash.
+> ![attention](icon/attention.svg): Restore is to restore the file in trash to its original directory. But it is unable to restore the files in trash if empty operation has been executed.
 
 #### Empty Trash
 
@@ -223,29 +221,48 @@ Empty trash to release more usable space in your disk.
 1. In trash, click on **Empty**.
 2. Click on **Empty Trash**.
 
-## Basic Operations|common/icon_basicoperation.svg|
+## Basic Operations|../common/icon_basicoperation.svg|
 
 ### Personalize Desktop
 
 Desktop is the interface for human and computer to interact, and helps you to manage the applications.
 
-![1|Desktop](png/desktop.png)
+![1|desktop](png/desktop.png)
 
 You can select some elegant and fashionable wallpapers to beautify desktop and make it distinctive.
 
-1. On desktop, click the right mouse button.
+1. Right click on desktop.
 2. Click on **Personalize** to open the interface of personalized settings.
 
-> ![notes](icon/notes.svg): Specific operation of personalized settings refers to [Personalization](dman:///deepin-controlcenter#Personalization).
+> ![notes](icon/notes.svg): Specific operations of personalization refers to [Personalization](dman:///dde-control-center#Personalization).
 
 ###  Set Display
 
 You can adjust the visual perception by setting the screen resolution, brightness and so on.
 
-1. On desktop, click the right mouse button.
+1. Right click on desktop.
 2. Click on **Display settings** to open the interface of display settings.
 
-> ![notes](icon/notes.svg): Specific operation of display settings refers to [Single Screen Settings](dman:///deepin-controlcenter#Single Screen Settings).
+> ![notes](icon/notes.svg): Specific operations of display refers to [Single Screen Settings](dman:///dde-control-center#Single Screen Settings)
+
+### Corner Navigation
+Corner navigation is to simplify your operations and helps you quickly enter the main interface.
+
+![1|hotspace](png/hotspace.png)
+
+#### View Hot Corners
+You can right click to view the default corner navigation.
+
+1. Right click on desktop.
+2. Click on **Corner navigation**, then the whole screen will get dark and the corresponding hot corner function will be displayed on the four corners of the screen.
+3. If you want to exit corner navigation, please click the mouse in the blank area of desktop.
+
+#### Change Hot Corners
+You can reset the hot corner function of four corners on the screen.
+
+1. Right click on desktop.
+2. Click on **Corner navigation**.
+3. Move the mouse pointer on a corner of the desktop, and then select another one.
 
 ### Set Dock
 
@@ -255,36 +272,35 @@ There are three display modes of Dock, which are fashion mode, efficient mode an
 
 * **Fashion mode**: The display mode is similar to Mac OS and displayed by a tray at the bottom of screen. All fixed application icons will be displayed on Dock.
 
-![1|fashion](png/fashionmode.png)
-
 * **Efficient mode**: The display mode is similar to Windows 7 and displayed by a small strip at the bottom of screen. Application icons fixed on Dock by default will be displayed in small ones, and icons of same types will be merged together to save more space for others.
+* **Classic mode**: The display mode is similar to Windows XP and displayed by a small strip at the bottom of screen. Icons in same type will be displayed separately to quickly view and switch.
 
+![1|fashion](png/fashionmode.png)
 ![1|efficient](png/efficientmode.png)
-
-* **Classic mode**: The display mode is similar to Windows XP and displayed by a small strip at the bottom of screen. Icons of same types will be displayed separately to quickly view and switch.
-
 ![1|classic](png/classicmode.png)
 
 You can switch the display mode by the following operations:
 
 1. On desktop, move the mouse pointer over Dock.
-2. Click the right mouse button.
+2. Right click.
 3. Select a display mode.
 
-![1|showmode](png/showmode.png)
+![0|showmode](png/showmode.png)
 
 #### Show/Hide Dock
 
 You can hide the dock to extend the operational area on desktop furthest.
 
 1. On desktop, move the mouse pointer over Dock.
-2. Right-click, you can:
+2. You can right click to:
 
    * Select **Keep showing**, Dock will be displayed at the bottom of desktop all the time.
    * Select **Keep hidden**, Dock will be hidden and only displayed when mouse hovering on Dock.
    * Select **Smart hide**, Dock will be automatically hidden when Dock area needs to be used.
 
-![1|showhidetaskbar](png/showhidetaskbar.png)
+![0|showhidetaskbar](png/showhidetaskbar.png)
+
+>![tips](icon/tips.svg): Press ![Super](icon/Super.svg)+![H](icon/H.svg) on keyboard to quickly display/hide Dock.
 
 #### Notification Area Settings
 
@@ -293,35 +309,15 @@ Notification area is used to display time, sound, network and so on.
 * If Dock is displayed in efficient mode or classic mode, the notification area will be displayed in the right side of Dock.
 * If Dock is displayed in fashion mode, the notification area will be displayed on Dock.
 
-Some icons will be displayed in notification area by default, such as network and sound. You can hide or display these icons by executing the following operations:
+Some icons will be displayed in notification area by default, such as network and sound.
 
 1. On desktop, move the mouse pointer over Dock.
-2. Right click to select **Notification area settings**.
-3. Slide the button leftwards or rightwards to enable or disable the icon of network and sound.
+2. Right click to select **Notification area settings*.
+3. Click on the buttons of Network, Sound and so on to hide or display.
 
-![1|notifyarea](png/notifyarea.png)
+![0|notifyarea](png/notifyarea.png)
 
-### Corner Navigation
-
-Corner navigation is to simplify your operation and helps you quickly enter the main interface.
-
-![1|hotspace](png/hotspace.png)
-
-#### View Hot Corners
-
-1. On desktop, click the right mouse button.
-2. Click on **Corner navigation**, then the whole screen will get dark and the corresponding hot corner function will be displayed on the four top corners of the screen.
-3. If you want to exit corner navigation, please click the mouse in the blank area of desktop.
-
-#### Change Hot Corners
-
-You can reset the hot corner function of four top corners on the screen.
-
-1. On desktop, click the right mouse button.
-2. Click on **Corner navigation**.
-3. Move the mouse pointer at a top corner of the desktop, and then select one in the option.
-
-## Management of Applications|common/icon_applicationmanagement.svg|
+## Management of Applications|../common/icon_applicationmanagement.svg|
 
 You can view all installed applications in launcher.
 
@@ -332,8 +328,8 @@ All applications in launcher will be displayed by name by default.
 There are five sorting ways of applications for your to select:
 
 * **By name**: Applications will be displayed by name.
-* **By category (icon)**: Classification navigation is displayed by icons on the left of launcher, and applications are displayed on the right of launcher by the order of the classification navigation.
-* **By category (text)**: Classification navigation is displayed by texts on the left of launcher, and applications are displayed on the right of launcher by the order of the classification navigation.
+* **By category (icon)**: Category navigation is displayed by icons on the left of launcher, and applications are displayed on the right of launcher by the order of the category navigation.
+* **By category (text)**: Category navigation is displayed by texts on the left of launcher, and applications are displayed on the right of launcher by the order of the category navigation.
 * **By time installed**: Applications will be displayed by time installed.
 * **By frequency**: Applications will be displayed by frequency.
 
@@ -341,72 +337,72 @@ There are five sorting ways of applications for your to select:
 
 You can select the sorting way by executing the following operations:
 
-1. In Launcher, move the mouse pointer over ![category](icon/category_icon.png).
+1. In Launcher, move the mouse pointer over ![category](icon/category_icon.png) .
 2. Select a sorting way.
 
 ### Search Applications
 
 In Launcher, scroll up and down the mouse wheel to find the application you need. You may also locate the application you need faster with the category navigation on the left if the applications are sorted by category (icon) or by category (text).
 
-Of course, if you already know the name of the application, you can locate it even faster by type in the keywords.
+If you already know the name of the application, you can locate it even faster by type in the keywords.
 
 1. In Launcher, type in a word such as "deepin" with keyboard.
 2. System will automatically search for all applications which contain the keyword "deepin", and then display the searched result in Launcher.
 
 ![1|searchapp](png/searchapp.png)
 
-### Set Shortcuts for Applications
-
+### Set Shortcuts
 Shortcut is an easy and convenient way to launch applications.
 
 #### Create Shortcuts
 
 You can choose to send the application to desktop or dock to facilitate follow-up operations.
 
-1. In Launcher, move the mouse pointer to the application icon.
-2. Right-click the icon, you can:
-
+1. In Launcher, move the mouse pointer over the application icon.
+2. Right click the icon, you can:
    * Click on **Send to desktop** to create a shortcut on desktop.
-   * Click on **Send to dock** to fix the application to Dock.
-   * Click on ** Add to autostart** to add the application to autostart, it will automatically run when the computer boots.
+   * Click on **Send to dock** to fix the application on Dock.
+   * Click on **Add to startup** to add the application to startup, it will automatically run when the computer boots.
 
 ![0|sendto](png/sendto.png)
 
-> ![notes](icon/notes.svg): By mouse you can drag the application icon from Launcher or desktop to drop it on Dock . But, you can not drag and drop the application while it is running. At this time you can right-click the application icon on Dock and select **Dock** to fix it on Dock. So that you can quickly open it on Dock.
+>![notes](icon/notes.svg): By mouse you can drag the application icon from Launcher to Dock. But, you can not drag and drop the application while it is running. At this time you can right click the application icon on Dock and select **Dock** to fix. So that you can quickly open it on Dock.
 
 #### Delete Shortcuts
+You can delete the application shortcuts from desktop, Dock and so on.
 
-1. In Launcher, move the mouse pointer to the application icon.
-2. Right-click the icon, you can:
-
-   * Click on **Remove from dock** to remove the dock-fixed application from Dock.
+1. In Launcher, move the mouse pointer over the application icon.
+2. Right click the icon, you can:
    * Click on **Remove from desktop** to delete the shortcut on desktop.
-   * Click on **Remove from autostart** to remove the application from autostart.
+   * Click on **Remove from dock** to remove the application fixed on Dock.
+   * Click on **Remove from startup** to remove the application from startup.
 
-> ![notes](icon/notes.svg): Remove application fixed on Dock can also be done by pressing and holding the left mouse button to drag the application icon away from Dock. But, you can not drag and remove the application while it is running. At this time you can right-click the application icon on Dock and select **Undock** to remove it from Dock.
+![0|deleteto](png/deleteto.png)
+
+> ![notes](icon/notes.svg): Application fixed on Dock can be removed by pressing and holding left mouse button to drag the application icon away from Dock.You can not drag and remove the application while it is running. At this time you can right click on the application icon on Dock and select **Undock** to remove.
 
 ### Run Applications
 
 ### Run applications and execute all sorts of operations!
 
-1. In Launcher, move the mouse pointer to the application icon.
-2. Right­click the application icon to select **Open** or directly click the application icon.
+1. In Launcher, move the mouse pointer over the application icon.
+2. Click the application icon or right click to select **Open** .
 
 For those whose desktop shortcuts have been created or fixed on Dock, you can also open them by the following ways:
 
-* Right-click the desktop icon and select **Open** or double-click the desktop icon.
-2. Right-click the application icon to select **Run** or directly click the application icon on Dock.
+* Double click the desktop icon or right click the desktop icon to select **Open**.
+* Click the application icon on Dock or right click to select **Open** .
 
 ### Uninstall Applications
 
 You can choose to uninstall applications you no longer use to save disk space.
 
-1. In Launcher, right-click the application icon.
+1. In Launcher, right click the application icon.
 2. Click on **Uninstall**.
 
 ![0|uninstallapp](png/uninstallapp.png)
 
-> ![tips](icon/tips.svg): Application can also be uninstalled by directly dragging the application icon from launcher into ![trash](icon/trash_icon.png).
+> ![tips](icon/tips.svg): In **Fashion mode**, press and hold the left mouse button in launcher and drag the application icon to ![trash](icon/trash_icon.png) to remove.
 
 ### Application Group
 
@@ -414,7 +410,7 @@ You can manage application icons on desktop by the application group, multiple a
 
 #### Create Application Group
 
-1. On desktop, move the mouse pointer to the application icon.
+1. On desktop, move the mouse pointer over the application icon.
 2. Press and hold the left mouse button to drag the application icon over another one.
 3. Release the left mouse button to complete creating an application group.
 4. Please repeat step 2 and step 3 to add other application icons into the application group.
@@ -423,278 +419,254 @@ You can manage application icons on desktop by the application group, multiple a
 
 #### Rename Application Group
 
-1. On desktop, move the mouse pointer to the application group.
-2. Click the right mouse button and select **Rename**.
+1. On desktop, move the mouse pointer over the application group.
+2. Right click to select **Rename**.
 3. Input a new name for the application group.
 
 ### Trigger Application Group
 
-Trigger an application group to run the applications insides it.
-
-1. On desktop, move the mouse pointer to the application group.
-2. Right-click the application group and select **Open** or directly click it, now all applications in the application group will be expanded and displayed.
+1. On desktop, move the mouse pointer over the application group.
+2. Right click the application group and select **Open** or directly click it, now all applications in the application group will be expanded and displayed.
 3. Click the application to run.
 
 ![0|triggergroup](png/triggergroup.png)
 
-### Dissolve Application Group
+### Ungroup Application Group
 
-If you are sure that you no longer need application group to manage applications, you can dissolve it.
-
-1. On desktop, move the mouse pointer to the application group.
-2. Click the right mouse button and select **Ungroup**.
+1. On desktop, move the mouse pointer over the application group.
+2. Right click to select **Ungroup**.
 
 ![0|dissolvegroup](png/dissolvegroup.png)
 
 ### Delete Application Group
 
-1. On desktop, move the mouse pointer to the application group.
-2. Click the right mouse button and select **Delete*.
+1. On desktop, move the mouse pointer over the application group.
+2. Right click to select **Delete**.
 
 ![0|deletegroup](png/deletegroup.png)
 
->  ![attention](icon/attention.svg): The applications within the application group will not be uninstalled when executing the operation of dissolving or deleting it. Among which the application icons will be distributed on desktop after dissolving, and the application icons will be removed from desktop after deleting. But the applications are still in the system and you can see them in launcher.
+> ![attention](icon/attention.svg): The applications within the application group will not be uninstalled when ungroup or delete it. Among which the application icons will be distributed on desktop after ungrouping, and the application icons will be removed from desktop after deleting. But the applications are still in the system and you can view them in launcher.
 
-## Desktop File Management|common/icon_desktopfilemanagement.svg|
+## Management of Desktop Files|../common/icon_desktopfilemanagement.svg|
+You can execute related operations on the files stored on desktop as needed.
 
 ### Sort Files
 
-You can sort the files stored on desktop by certain rules to make desktop tidier.
-
-1. On desktop, click the right mouse button.
+1. Right click on desktop.
 2. Click on **Sort by**, you can:
 
   * Click on **Name** to display files in the order of their names.
-  * Click on **Last modified time** to sort display files in the order of their last modified time.
+  * Click on **Size** to display files in the order of their sizes.
+  * Click on **Type** to display files in the order of their types.
+  * Click on **Date modified** to sort display files in the order of their last modified date.
+
+![0|sorticon](png/sorticon.png)
 
 ### Create New Files
 
-1. On desktop, click the right mouse button.
-2. Click on **New**.
+1. Right click on desktop.
+2. Click on **New document**.
 3. Select type for the new file.
 4. Input name for the new file.
 
+![0|newfile](png/newfile.png)
+
+### Create New Folders
+
+1. Right click on desktop.
+2. Click on **New folder**.
+3. Input name for the new folder.
+
 ### Rename Files
 
-1. On desktop, right click the file.
+1. On desktop, right click on the file.
 2. Click on **Rename**.
-3. Input a new name for new file.
+3. Input a new name for the file.
 
 ### Copy/Cut Files
 
-Files on desktop can be pasted to other locations to store.
-
-1. On desktop, right click the file.
+1. On desktop, right click on the file.
 2. Click on **Copy** or **Cut**.
 3. Select a target storage directory.
-4. Click the right mouse button to select **Paste**.
+4. Right click to select **Paste**.
 
-### Compress/Uncompress Files
+### Compress/Extract Files
 
-Files can be compressed to packages to save disk space.
-
-1. On desktop, right click the file.
+1. On desktop, right click on the file.
 2. Click on **Compress**.
-3. Input name for the package, select package type and target storage directory.
+3. Input name for the package, select the package type and target storage directory.
 4. Click on **Create**.
 
-![1|compressfile](png/compressfile.png)
+![0|compressfile](png/compressfile.png)
 
-Compressed files can be extracted to one or more original files. To extract a file, you can:
+Compressed files can be extracted to one or more files. To extract a file, you can:
 
-1. On desktop, right click the compressed file.
-2. Click on **Extract** or **Extract Here**.
-3. Select a target storage directory.
-4. Click on **Extract**.
+1. On desktop, right click on the compressed file.
+2. Click on **Extract Here**.
+3. The compressed file is extracted to desktop.
+
+> ![notes](icon/notes.svg): You also can double click on the compressed file, click on **Extract** to select a target storage directory, and then click on **Extract**.
 
 ### View File Property
 
-1. On desktop, right click the file.
+1. On desktop, right click on the file.
 2. Click on **Properties** to view or change the basic information and permissions.
 
 ![0|attributefile](png/attributefile.png)
 
 ### Delete File
 
-1. On desktop, right click the file.
+1. On desktop, right click on the file.
 2. Click on **Delete**.
 
-## Workspace Operations|common/icon_workspacemanagement.svg|
+## Workspace Management |../common/icon_workspacemanagement.svg|
+Workspace is to manage your desktop window in groups. Your workspace will be enlarged by dividing it.
 
-工作区是将您的桌面窗口进行分组管理，通过划分工作区可以增大您的工作区域。
+### Shortcuts
+A lot of shortcuts have already been set in window manager. You can complete operations relevant to the window and workspace by all sorts of shortcuts.
 
-### 了解快捷键
-
-窗口管理器已经预设了常用的快捷键，使用各种快捷键您就能完成对窗口和工作区的相关操作！
-
-> ![notes](icon/notes.svg)：您可以进入 **控制中心** > **快捷键** 查看窗口管理器相关的快捷键。
+> ![notes](icon/notes.svg): You can enter **Control Center** > **Keyboard Shortcuts** to view the shortcuts related to window manager.
 
 <table class="block1">
     <tbody>
         <tr>
-            <td>显示工作区</td>
+            <td>Display workspace</td>
             <td>Super + S</td>
         </tr>
        <tr>
-            <td>显示当前工作区的窗口</td>
+            <td>Display windows of current workspace</td>
             <td>Super + W</td>
         <tr>
-            <td>显示所有工作区的窗口</td>
+            <td>Display windows of all workspaces</td>
             <td>Super + A</td>
         </tr>
         <tr>
-            <td>切换窗口</td>
+            <td>Switch windows</td>
             <td>Alt + Tab</td>
         </tr>
         <tr>
-            <td>反向切换窗口</td>
+            <td>Switch windows in reverse</td>
             <td>Alt + Shift + Tab</td>
         </tr>
         <tr>
-            <td>切换同类型窗口</td>
+            <td>Switch similar windows</td>
             <td>Alt + ~</td>
         </tr>
          <tr>
-            <td>反向切换同类型窗口</td>
+            <td>Switch similar windows in reverse</td>
             <td>Alt + Shift + ~</td>
         </tr>
         <tr>
-            <td>切换到左边工作区</td>
-            <td>Ctrl + Alt + Left</td>
-        </tr>
-        <tr>
-            <td>切换到右边工作区</td>
-            <td>Ctrl + Alt + Right</td>
-        </tr>
-        <tr>
-            <td>切换到指定工作区</td>
-            <td>Ctrl + Alt + 数字键</td>
-        </tr>
-        <tr>
-            <td>移动到左边工作区</td>
-            <td>Ctrl + Alt + Shift + left</td>
-        </tr>
-        <tr>
-            <td>移动到右边工作区</td>
-            <td>Ctrl + Alt + Shift + right</td>
-        </tr>
-        <tr>
-            <td>放大屏幕显示</td>
+            <td>Zoom in screen display</td>
             <td>Super + =</td>
         </tr>
         <tr>
-            <td>缩小屏幕显示</td>
+            <td>Zoom out screen display</td>
             <td>Super + -</td>
         </tr>
         <tr>
-            <td>放大/缩小窗口显示</td>
+            <td>Zoom in/out window display</td>
             <td>Super + M</td>
         </tr>
-      </tr>
+       </tr>
  </table>
 
+### Open Workspace
 
-### 打开工作区
-
-在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![S](icon/S.svg) 组合键打开工作区的管理界面。
+On desktop, press ![Super](icon/Super.svg) + ![S](icon/S.svg) on keyboard to open the management interface of workspace.
 
  ![1|openworkspace](png/openworkspace.png)
 
-### 添加工作区
+#### Add Workspace
 
-窗口管理器最多支持7个工作区。
+When the workspaces reached maximum number, ![plus_icon](icon/plus_icon.svg) at the right of preview window will automatically hide. Now it is unable to add workspace. ![plus_icon](icon/plus_icon.svg) will be automatically displayed after deleting a workspace.
 
-当您添加的工作区达到最大值时，预览窗口右侧的 ![plus_icon](icon/plus_icon.svg) 会自动隐藏，此时将不能再执行添加工作区的操作。当删除1个工作区后，![plus_icon](icon/plus_icon.svg) 又会自动显示。
+> ![notes](icon/notes.svg): Window manager supports up to 7 workspaces.
 
-在工作区的管理界面，您可以通过以下两种方式添加工作区：
+On the management interface of workspace, you can add workspace by the following two ways:
 
-* 点击预览窗口右侧的 ![plus_icon](icon/plus_icon.svg)，按下键盘上的  ![Enter](icon/Enter.svg) 键。
-* 按下键盘上的 ![Alt](icon/Alt.svg) + ![=](icon/=.svg) 组合键，再按下 ![Enter](icon/Enter.svg) 键。
+* Click on ![plus_icon](icon/plus_icon.svg) at the right of preview window, then press ![Enter](icon/Enter.svg) on keyboard.
+* Press ![Alt](icon/Alt.svg) + ![=](icon/=.svg) on keyboard, then press ![Enter](icon/Enter.svg).
 
   ![1|addworkspace](png/addworkspace.png)
 
-### 切换工作区
+### Switch Workspace
 
-* 在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 组合键，可以切换到上一个/下一个工作区。
-* 在桌面上，按下键盘上的 ![Ctrl](icon/Ctrl.svg) + ![Alt](icon/Alt.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 组合键，可以切换到上一个/下一个工作区。
-* 在桌面上，按下键盘上的 ![Ctrl](icon/Ctrl.svg) + ![Alt](icon/Alt.svg) + **数字键**，可以切换到指定的工作区。
-* 在工作区的管理界面，通过上下滚动鼠标滚轮或按下键盘上的 ![Alt](icon/Alt.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 组合或键来切换到上一个/下一个工作区。
-* 在工作区的管理界面，通过点击对应的预览窗口或按下键盘上的 ![Alt](icon/Alt.svg) + **数字键** 来切换到指定工作区。
+* On desktop, switch to the previous/next workspace by pressing ![Super](icon/Super.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) on keyboard.
+* On the management interface of workspace, switch to the previous/next workspace by scrolling the mouse wheel up and down or pressing ![Alt](icon/Alt.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) on keyboard.
+* On the management interface of workspace, switch to the specified workspace by clicking on the corresponding preview window or pressing ![Alt](icon/Alt.svg) + **Number key** on keyboard.
 
->  ![notes](icon/notes.svg)：在工作区的管理界面，您还可以直接按下键盘上的![Left](icon/Left.svg) / ![Right](icon/Right.svg)键来切换到上一个/下一个工作区。
-
+>  ![notes](icon/notes.svg): On the management interface of workspace, you also can switch to the previous/next workspace by pressing ![Left](icon/Left.svg) / ![Right](icon/Right.svg) on keyboard.
 
  ![1|switchworkspace](png/switchworkspace.png)
 
-### 命名工作区
+### Name Workspace
 
-1. 在工作区的管理界面，点击预览窗口下面的工作区编号或按下键盘上的 ![F2](icon/F2.svg) 键，将会出现输入光标。
-2. 输入工作区名称。
-3. 按下键盘上的  ![Enter](icon/Enter.svg) 键。
+1. On the management interface of workspace, the cursor will become inputed after clicking on the workspace number or pressing ![F2](icon/F2.svg) on keyboard.
+2. Input the name of workspace.
+3. Press ![Enter](icon/Enter.svg)  on keyboard.
 
-> ![attention](icon/attention.svg)：工作区编号主要是为了标示各个工作区，因此在执行命名工作区的操作时，工作区编号并不会被重命名。
+> ![attention](icon/attention.svg): Workspace number is to mark each workspace and will not be renamed when naming a workspace.
 
 ![1|renameworkspace](png/renameworkspace.png)
 
-### 删除工作区
+### Delete Workspace
 
-* 在工作区的管理界面，点击预览窗口右上角的 ![close_icon](icon/close_icon.svg)，删除指定的工作区。
-* 在工作区的管理界面，选中预览窗口，按住鼠标左键不放，将预览窗口向上拖拽，删除指定的工作区。
-* 在工作区的管理界面，每按下一次键盘上的 ![Alt](icon/Alt.svg) + ![-](icon/-.svg) 组合键，将向左或向右逐次删除工作区。
+* On the management interface of workspace, click on ![close_icon](icon/close_icon.svg) in the upper right corner of preview window to delete the specified workspace.
+* On the management interface of workspace, the specified workspace can be deleted by pressing and holding the left mouse button to drag upwards the preview window after selecting the preview window.
+* On the management interface of workspace, each press on ![Alt](icon/Alt.svg) + ![-](icon/-.svg) will successively delete workspaces leftwards or rightwards.
 
-> ![attention](icon/attention.svg)：当您执行删除工作区操作后，该工作区中的所有窗口将自动转移到相邻的工作区中显示，当桌面环境中只存在一个工作区时，将不能执行删除工作区的操作。
+> ![attention](icon/attention.svg): All windows of the current workspace will be automatically transferred to the adjacent workspace after deleting a workspace. Workspace can not be deleted if there is only one.
 
 ![1|deleteworkspace](png/deleteworkspace.png)
 
-### 退出工作区
+### Exit Workspace
 
-* 按下键盘上的 ![Esc](icon/Esc.svg) 键。
-* 在工作区管理界面的任意位置点击一下鼠标。
-* 再次按下键盘上的 ![Super](icon/Super.svg) + ![S](icon/S.svg) 组合键。
+* Press ![Esc](icon/Esc.svg) on keyboard.
+* Click the mouse at any position on the management interface of the current workspace.
+* Press ![Super](icon/Super.svg) + ![S](icon/S.svg) on keyboard again.
 
-## Window Operations|common/icon_windowmanagement.svg|
+## Window Management|../common/icon_windowmanagement.svg|
 
-### 在工作区切换窗口
+### Switch Windows in Workspace
+On the management interface of workspace, all opened windows will be displayed in titles in current workspace.
 
-在工作区的管理界面，当前工作区中所有打开的窗口都将平铺展开来显示。
+- Press ![Tab](icon/Tab.svg) on keyboard to switch to the next window of the current window.
+- Press ![Shift](icon/Shift.svg) + ![Tab](icon/Tab.svg) on keyboard to switch to the previous window of the current window.
 
-- 按下键盘上的 ![Tab](icon/Tab.svg) 键，将切换到当前窗口的下一个窗口。
-- 按下键盘上的 ![Shift](icon/Shift.svg) + ![Tab](icon/Tab.svg) 键，将切换到当前窗口的上一个窗口。
+### Move Windows in Workspace
+On the management interface of workspace, you can move windows in current workspace to another workspace.
 
-### 在工作区移动窗口
-
-在工作区的管理界面，将当前工作区中的窗口移动到另一个工作区。
-
-1. 在工作区的管理界面，将鼠标指针置于窗口上，此时选中窗口的右上角会出现 ![close_icon](icon/close_icon.svg)。
-2. 按住鼠标左键不放，将窗口拖拽到指定的预览窗口中。
-3. 释放鼠标左键，完成窗口的移动。
+1. On the management interface of workspace, move the mouse pointer over the window,  then ![close_icon](icon/close_icon.svg) will be displayed on the upper right corner.
+2. Press and hold the left mouse button to drag the window to the specified preview window.
+3. Release the left mouse button to move windows.
 
   ![1|movewindow](png/movewindow.png)
 
-### 在工作区关闭窗口
+### Close Windows in Workspace
+On the management interface of workspace, you can quickly close the windows opened on desktop.
 
-在工作区的管理界面，您可以非常快速的关闭在桌面上已经打开的窗口。
-
-1. 在工作区的管理界面，将鼠标指针置于窗口上，此时选中窗口的右上角会出现 ![close_icon](icon/close_icon.svg)。
-2. 点击 ![close_icon](icon/close_icon.svg)。
+1. On the management interface of workspace, move the mouse pointer over the window,  then ![close_icon](icon/close_icon.svg) will be displayed on the upper right corner.
+2. Click on ![close_icon](icon/close_icon.svg).
 
  ![1|closewindow](png/closewindow.png)
 
-### 在桌面显示窗口
+### Display Windows on Desktop
 
-* 在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![A](icon/A.svg) 组合键，显示所有工作区的窗口。
-* 在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![W](icon/W.svg) 组合键，显示当前工作区的窗口。
+* On desktop, press ![Super](icon/Super.svg) + ![A](icon/A.svg) on keyboard to display windows of all workspaces.
+* On desktop, press ![Super](icon/Super.svg) + ![W](icon/W.svg) on keyboard to display windows of current workspace.
 
-### 在桌面切换窗口
+### Switch Windows on Desktop
 
-* 在桌面上，按住键盘上的 ![Alt](icon/Alt.svg) 键不放，连续按下键盘上的 ![Tab](icon/Tab.svg) 键，窗口依次向右切换显示；连续按下键盘上的  ![Shift](icon/Shift.svg) + ![Tab](icon/Tab.svg)键，窗口依次向左切换显示。
-* 在桌面上，按住键盘上的 ![Alt](icon/Alt.svg) 键不放，连续按下键盘上的 ![~](icon/~.svg) 键，当前同类型窗口依次向右切换显示；连续按下键盘上的  ![Shift](icon/Shift.svg) +  ![~](icon/~.svg) 键，当前同类型的窗口依次向左切换显示。
+* On desktop, press and hold ![Alt](icon/Alt.svg), then continuously press ![Tab](icon/Tab.svg) to successively switch windows rightwards; press and hold ![Alt](icon/Alt.svg) + ![Shift](icon/Shift.svg), then continuously press ![Tab](icon/Tab.svg) to successively switch windows leftwards.
+* On desktop, press and hold ![Alt](icon/Alt.svg), then continuously press ![~](icon/~.svg) to successively switch the current similar windows rightwards; press and hold ![Alt](icon/Alt.svg) + ![Shift](icon/Shift.svg), then continuously press ![~](icon/~.svg) to successively switch the current similar windows leftwards.
 
 ![1|allwindow](png/allwindow.png)
 
-### 在桌面移动窗口
+### Move Window on Desktop
 
-* 在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 键，将当前窗口移动到上一个/下一个工作区；按下键盘上的  ![Super](icon/Super.svg)+ ![Shift](icon/Shift.svg) + **数字键**，可以将当前窗口移动到指定的工作区。
-* 在桌面上，按下键盘上的 ![Ctrl](icon/Ctrl.svg) + ![Alt](icon/Alt.svg) + ![Shift](icon/Shift.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 键，将当前窗口移动到上一个/下一个工作区；按下键盘上的 ![Ctrl](icon/Ctrl.svg) + ![Alt](icon/Alt.svg) + ![Shift](icon/Shift.svg) + **数字键**，可以将当前窗口移动到指定的工作区。
+* On desktop, press ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) on keyboard to move the current window to previous/next workspace.
+* On desktop, press ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + **Number key** on keyboard to move the current window to the specified workspace.
+
 
 ![1|movewindow1](png/movewindow1.png)
