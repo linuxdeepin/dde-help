@@ -1,0 +1,30 @@
+﻿pick e32f697 Added it-IT section
+squash 6935602 The it-IT section has been improved
+squash 7e0b050 The it-IT section has been improved
+squash b9cfd53 The it-IT section has been improved
+squash b4fd486 The it-IT section has been improved
+squash 946b0f6 The it-IT section has been improved
+squash 9a005c3 The it-IT section has been improved
+squash c223d79 The it-IT section has been improved
+squash e50328c The it-IT section has been improved
+squash b619876 The it-IT section has been improved
+
+# Rebase e50328c..b619876 onto e50328c (1 command(s))
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+
