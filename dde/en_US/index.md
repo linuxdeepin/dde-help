@@ -25,14 +25,14 @@ In shutdown interface, you can select to shut down, restart, log out, lock and s
 
 > ![notes](icon/notes.svg) : You also can click on ![shutdowninterface](icon/shutdowninterface_icon.svg) on Dock to enter the shutdown interface.
 
-### Boot and Shut down
+### Boot and Shutdown
 #### Boot
 Turn on the computer to start your work now! Press the power button after plugging in to boot your computer.
 
-#### Shut down
+#### Shutdown
 
 1. Click on ![power](icon/power_icon.svg) at the bottom of Control Center.
-2. Click on **Shut down** or press ![Enter](icon/Enter.svg) on keyboard.
+2. Click on **Shutdown** or press ![Enter](icon/Enter.svg) on keyboard.
 
 ### Log In
 After booting, you need to create an account to log in before performing other operations.
@@ -42,7 +42,7 @@ After booting, you need to create an account to log in before performing other o
 1. On login interface, input the account password.
 2. Press ![Enter](icon/Enter.svg) on keyboard or click on ![login](icon/login_icon.svg).
 
-> ![notes](icon/notes.svg): The default account is the username and password set in the installation process. You can create a new account after logging in. Specific operations refer to [Create A New Account](dman:///dde-control-center#Create A New Account).
+> ![notes](icon/notes.svg): The default account is the username and password set in the installation process. You can create a new account after logging in. Specific operations refer to [Create A New Account](dman:///dde-control-center#Create New Account).
 
 You also can execute the following operations:
 
@@ -452,7 +452,7 @@ Compressed files can be extracted to one or more files. To extract a file, you c
 1. On desktop, right click on the file.
 2. Click on **Delete**.
 
-## Workspace Management |../common/icon_workspacemanagement.svg|
+## Workspace Management|../common/icon_workspacemanagement.svg|
 Workspace is to manage your desktop window in groups. Your workspace will be enlarged by dividing it.
 
 ### Shortcuts
