@@ -1,7 +1,7 @@
- # 深度操作系统|../common/deepin-system.svg|
+# 深度操作系统|../common/deepin-system.svg|
 ## 概述|../common/icon_overview.svg|
 
-深度操作系统 15.2 是武汉深之度科技有限公司于2016年5月发布的 Linux 的桌面操作系统。在深度操作系统中，已经预装了 WPS Office、搜狗输入法、有道词典以及一系列深度特色应用。它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，深度操作系统将会被越来越多的用户所喜爱和使用。
+深度操作系统是深度科技发行的美观易用、安全可靠的国产桌面操作系统。深度系统预装了 WPS Office、搜狗输入法、有道词典以及一系列深度特色应用。它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，深度操作系统将会被越来越多的用户所喜爱和使用。
 
 ## 使用入门|../common/icon_guide.svg|
 
@@ -33,6 +33,8 @@
 
 1. 在控制中心面板，点击底部的 ![power](icon/power_icon.svg)。
 2. 点击 **关机** 或按下键盘上的 ![Enter](icon/Enter.svg) 键。
+
+> ![notes](icon/notes.svg)：关机时如果还有其他账户处于登陆状态，为了避免用户数据丢失，需要确认之后才能关机。
 
 ### 登录
 电脑开机后，在您正式执行各项操作之前，您需要先使用一个帐户来登录电脑。
@@ -131,8 +133,8 @@
             <td><img src="icon/deepinmovie_icon.svg" alt="深度影院" class="inline" /></td>
             <td>点击可打开深度影院</td>
             <td class="blank"></td>
-            <td><img src="icon/deepinmusic_icon.svg" alt="深度音乐" class="inline" /></td>
-            <td>点击可打开深度音乐</td>
+            <td><img src="icon/viewer.svg" alt="深度看图" class="inline" /></td>
+            <td>点击可打开深度看图</td>
         </tr>
         <tr>
             <td><img src="icon/chrome_icon.svg" alt="浏览器" class="inline" /></td>
@@ -142,7 +144,7 @@
             <td>点击可打开控制中心面板</td>
         </tr>
         <tr>
-            <td><img src="icon/systemfile_icon.svg" alt="文件管理器" class="inline" /></td>
+            <td><img src="icon/deepin-file-manager.svg" alt="文件管理器" class="inline" /></td>
             <td>点击可打开文件管理器</td>
             <td class="blank"></td>
             <td><img src="icon/network_icon.svg" alt="网络设置" class="inline" /></td>
@@ -150,27 +152,29 @@
         </tr>
         <tr>
             <td><img src="icon/sound_icon.svg" alt="声音设置" class="inline" /></td>
-            <td>点击可打开声音设置界面</td>
+            <td>点击可以快速调节音量</td>
             <td class="blank"></td>
-            <td><img src="icon/deepinsystray_icon.svg" alt="通知区域" class="inline" /></td>
-            <td>显示正在运行中的应用程序</td>
+            <td><img src="icon/deepin-terminal.svg" alt="深度终端" class="inline" /></td>
+            <td>点击运行深度终端</td>
         </tr>
         <tr>
-            <td><img src="icon/shutdowninterface_icon.svg" alt="关机界面" class="inline" /></td>
-            <td>点击可快速进入关机界面</td>
+            <td><img src="icon/battery.svg" alt="关机和电源" class="inline" /></td>
+            <td>显示电量，点击可快速进入关机界面</td>
             <td class="blank"></td>
             <td><img src="icon/datetime_icon.svg" alt="时间和日期" class="inline" /></td>
-            <td>点击可打开时间和日期的设置界面</td>
+            <td>点击可打开深度日历</td>
         </tr>
 		<tr>
-            <td><img src="icon/trash_icon.svg" alt="回收站" class="inline" /></td>
-            <td>点击可打开回收站</td>
+            <td><img src="icon/wireless.svg" alt="无线网络" class="inline" /></td>
+            <td>点击可快速设置无线网络</td>
             <td class="blank"></td>
-            <td></td>
-            <td></td>
+			<td><img src="icon/trash_icon.svg" alt="回收站" class="inline" /></td>
+            <td>点击可打开回收站</td>
         </tr>
     </tbody>
 </table>
+
+> ![tips](icon/tips.svg)：![battery](icon/battery.svg)图标默认显示剩余电量，还可以点击![battery](icon/battery.svg)图标快速进入关机界面。台式电脑无电量显示，这里显示 ![shutdowninterface_icon](icon/shutdowninterface_icon.svg)图标，点击可快速进入关机界面。
 
 ### 启动器
 启动器帮助您管理系统中已安装的所有应用，在启动器中使用分类导航或搜索功能可以快速找到需要的应用程序。
@@ -182,7 +186,7 @@
 ### 控制中心
 控制中心允许您查看和进行基本的系统设置，包括更改用户帐户、设置屏幕显示等。
 
- ![0|controlcenter](png/controlcenter.png)
+ ![2|controlcenter](png/controlcenter.png)
 
 ### 窗口管理器
 窗口管理器可以在不同的工作区内展示不同的窗口内容，通过窗口管理器您可以对桌面窗口进行分组管理。
@@ -192,7 +196,7 @@
 ### 回收站
 电脑中被删除的所有文件您都可以在回收站中找到，回收站中的文件可以被恢复或清空。
 
-- 如果您切换到经典模式或高效模式，回收站将在桌面中显示。
+- 通常情况下，您可以打开深度文件管理器来管理回收站。
 - 如果您切换到时尚模式，回收站将在任务栏中显示。
 
 #### 恢复文件
@@ -201,7 +205,7 @@
 1. 在回收站中，选择要恢复的文件。
 2. 点击 **恢复**。
 
-> ![attention](icon/attention.svg)：恢复是将回收站中的文件还原到原来的存储路径下。但是如果回收站已经执行了清空操作，那么回收站中的文件将不能再恢复。
+> ![attention](icon/attention.svg)：恢复是将回收站中的文件还原到原来的存储路径下。但是如果回收站已经执行了清空操作，那么文件将不能再恢复。
 
 #### 清空回收站
 清空回收站，可以让您的硬盘释放更多的可用空间。
@@ -210,7 +214,6 @@
 2. 点击 **清空回收站**。
 
 ## 基本操作|../common/icon_basicoperation.svg|
-### 个性化桌面
 电脑桌面是人与电脑进行交互的界面，它帮助您管理桌面上的应用程序。
 
  ![1|desktop](png/desktop.png)
@@ -218,9 +221,9 @@
 您可以选择一些精美、时尚的壁纸来美化桌面，让您的电脑显示与众不同。
 
 1. 在桌面，点击鼠标右键。
-2. 点击 **个性化**，打开个性化设置界面。
-
-> ![notes](icon/notes.svg)：关于个性化的设置，具体操作请参阅 [个性化设置](dman:///dde-control-center#个性化设置)。
+2. 点击 **设置壁纸**，桌面底部弹出壁纸设置界面。
+3. 点击要设置的壁纸图片。
+4. 选择 **桌面**/**桌面和屏锁**。
 
 ### 设置显示器
 您可以通过设置显示器的分辨率、亮度等来调节屏幕的视觉观感。
@@ -252,23 +255,22 @@
 
 ### 设置任务栏
 #### 切换显示模式
-任务栏提供三种显示模式：时尚模式、高效模式和经典模式。
+任务栏提供两种显示模式：时尚模式和高效模式。
 
 - **时尚模式**：任务栏的显示风格类似于Mac OS，以托盘的形式停靠在屏幕下方。任务栏上会显示所有固定在任务栏的应用图标。
 - **高效模式**：任务栏的显示风格类似于Windows 7，以小长条的形式显示在屏幕下方。固定在任务栏上的应用图标默认为小图标显示，而且相同类型的图标会合并在一起以腾出更多的空间给其他图标使用。
-- **经典模式**：任务栏的显示风格类似于Windows XP，以小长条的形式显示在屏幕下方。任务栏上相同类型的图标分开显示以方便您的查看和切换。
 
- ![1|fashion](png/fashionmode.png)
+
+ ![1|fashion](png/fashion.png)
  
  ![1|efficient](png/efficientmode.png)
- 
- ![1|classic](png/classicmode.png)
+
 
 您可以通过以下操作来切换显示模式：
 
 1. 在桌面，将鼠标指针置于任务栏上。
 2. 点击鼠标右键。
-3. 选择一种显示模式。
+3. 在**模式**子菜单中选择一种显示模式。
 
  ![1|showmode](png/showmode.png)
 
@@ -276,7 +278,8 @@
 您可以将任务栏隐藏起来，最大程度的扩展桌面的可操作区域。
 
 1. 在桌面，将鼠标指针置于任务栏上。
-2. 点击鼠标右键，您可以：
+2. 点击鼠标右键。
+3. 选择**状态**，您可以：
 
   - 选择 **一直显示**，任务栏将会一直显示在桌面底部。
   - 选择 **一直隐藏**，任务栏将会隐藏起来，只有在鼠标移至任务栏区域时才会显示。
@@ -286,19 +289,26 @@
 
 >![tips](icon/tips.svg)：按下键盘上的 ![Super](icon/Super.svg)+![H](icon/H.svg) 组合键，也可以快速显示/隐藏任务栏。
 
-#### 设置通知区域
-通知区域一般用来显示系统时间、系统音量和网络连接状况等。
+#### 设置任务栏位置
 
-- 如果任务栏为时尚模式显示，那么通知区域中的图标会显示在任务栏上。
-- 如果任务栏为高效模式或经典模式显示，那么通知区域会显示在任务栏的最右端。
-
-有些图标例如网络、声音默认在通知区域中显示。
+您可以将任务栏放置在桌面的任意方向。
 
 1. 在桌面，将鼠标指针置于任务栏上。
-2. 点击鼠标右键，选择 **通知区域设置**。
-3. 点击网络、声音等开关按钮，隐藏或显示应用图标。
+2. 点击鼠标右键。
+3. 在**位置**子菜单中选择一个方向。
 
- ![1|notifyarea](png/notifyarea.png)
+ ![1|taskbarplace](png/place.png)
+ 
+#### 调整任务栏大小
+
+您可根据个人习惯调整任务栏的大小。
+
+1. 在桌面，将鼠标指针置于任务栏上。
+2. 点击鼠标右键。
+3. 在**大小**子菜单中选择一个大小。
+
+ ![1|taskbarsize](png/taskbarsize.png)
+
 
 ## 应用管理|../common/icon_applicationmanagement.svg|
 在启动器中您可以查看系统中已安装的所有应用。
@@ -478,30 +488,25 @@
             <td>Alt + Tab</td>
         </tr>
         <tr>
-            <td>反向切换窗口</td>
-            <td>Alt + Shift + Tab</td>
+            <td>关闭窗口</td>
+            <td>Alt + F4</td>
         </tr>
         <tr>
-            <td>切换同类型窗口</td>
-            <td>Alt + ~</td>
+            <td>最大化窗口</td>
+            <td>Super + Up</td>
         </tr>
          <tr>
-            <td>反向切换同类型窗口</td>
-            <td>Alt + Shift + ~</td>
+            <td>恢复窗口</td>
+            <td>Super + Down</td>
         </tr>
         <tr>
-            <td>放大屏幕显示</td>
-            <td>Super + =</td>
+            <td>移动窗口</td>
+            <td>Alt + F7</td>
         </tr>
         <tr>
-            <td>缩小屏幕显示</td>
-            <td>Super + -</td>
+            <td>改变窗口大小</td>
+            <td>Alt + F8</td>
         </tr>
-        <tr>
-            <td>放大/缩小窗口显示</td>
-            <td>Super + M</td>
-        </tr>
-       </tr>
  </table>
 
 ### 打开工作区
@@ -522,9 +527,8 @@
 ### 切换工作区
 
 * 在桌面上，按下键盘上的 ![Super](icon/Super.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 组合键，可以切换到上一个/下一个工作区。
-* 在工作区的管理界面，通过上下滚动鼠标滚轮或按下键盘上的 ![Alt](icon/Alt.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) 组合键来切换到上一个/下一个工作区。
-* 在工作区的管理界面，通过点击对应的预览窗口或按下键盘上的 ![Alt](icon/Alt.svg) + **数字键** 来切换到指定工作区。
-* 在工作区的管理界面，您还可以直接按下键盘上的 ![Left](icon/Left.svg) / ![Right](icon/Right.svg)键来切换到上一个/下一个工作区。
+* 在工作区的管理界面，您可以直接按下键盘上的 ![Left](icon/Left.svg) / ![Right](icon/Right.svg)键来切换到上一个/下一个工作区。
+* 在工作区的管理界面，通过点击对应的预览窗口或按下键盘上的 **数字键** 来切换到指定工作区。
 
 ### 命名工作区
 
