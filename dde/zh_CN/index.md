@@ -174,7 +174,9 @@
     </tbody>
 </table>
 
-> ![tips](icon/tips.svg)：![battery](icon/battery.svg)图标默认显示剩余电量，还可以点击![battery](icon/battery.svg)图标快速进入关机界面。台式电脑无电量显示，这里显示 ![shutdowninterface_icon](icon/shutdowninterface_icon.svg)图标，点击可快速进入关机界面。
+> ![tips](icon/tips.svg)：当您使用台式机电脑时，仅显示为![shutdowninterface_icon](icon/shutdowninterface_icon.svg) 图标，当您使用笔记本电脑时，系统默认采用 ![battery](icon/battery.svg) 图标默认显示剩余电量，将鼠标置于图标上时显示剩余电量百分比，点击快速进入关机界面。
+
+
 
 ### 启动器
 启动器帮助您管理系统中已安装的所有应用，在启动器中使用分类导航或搜索功能可以快速找到需要的应用程序。
@@ -223,7 +225,9 @@
 1. 在桌面，点击鼠标右键。
 2. 点击 **设置壁纸**，桌面底部弹出壁纸设置界面。
 3. 点击要设置的壁纸图片。
-4. 选择 **桌面**/**桌面和屏锁**。
+4. 选择 **仅设置桌面**/**仅设置锁屏**。
+
+ ![0|setdesktop](png/setdesktop.png)
 
 ### 设置显示器
 您可以通过设置显示器的分辨率、亮度等来调节屏幕的视觉观感。

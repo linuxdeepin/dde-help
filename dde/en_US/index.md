@@ -1,5 +1,5 @@
-# Deepin |../common/deepin-system.svg|
-## Overview |../common/icon_overview.svg|
+# Deepin|../common/deepin-system.svg|
+## Overview|../common/icon_overview.svg|
 
 deepin is an elegant, easy to use and reliable domestic desktop operating system released by Deepin Technology Co., Ltd.  WPS Office, Sogou Input Method, Youdao Dic. and other deepin featured applications have been preinstalled in deepin. It allows you to experience a variety of recreational activities, but also to meet your daily needs. With continually improved and perfected functions, we believe deepin will be loved and used by more and more users.
 
@@ -223,7 +223,9 @@ You can select some elegant and fashionable wallpapers to beautify desktop and m
 1. Right click on desktop.
 2. Click on **Set wallpaper**, and the wallpaper setting interface will be popped up from the bottom of the desktop. 
 3. Click the picture you want to set.
-4. Select **Desktop**/**Desktop and Lock screen**.
+4. Select **Only desktop**/**Only lock screen**.
+
+![0|setwallpaper](png/setwallpaper.png)
 
 ###  Set Display
 You can adjust the visual perception by setting the screen resolution, brightness and so on.
@@ -464,7 +466,7 @@ Compressed files can be extracted to one or more files. To extract a file, you c
 1. On desktop, right click on the file.
 2. Click on **Delete**.
 
-## Workspace Management |../common/icon_workspacemanagement.svg|
+## Workspace Management|../common/icon_workspacemanagement.svg|
 Workspace is to manage your desktop window in groups. Your workspace will be enlarged by dividing it.
 
 ### Shortcuts
@@ -588,4 +590,4 @@ On desktop, press ![Super](icon/Super.svg) + ![W](icon/W.svg) on keyboard to dis
 ### Move Window on Desktop
 
 * On desktop, move the current window to the previous/next workspace by pressing ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + ![Left](icon/Left.svg) / ![Right](icon/Right.svg) on keyboard.
-* On desktop, move the current window to the specified workspace by pressing ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + **Number Key**on keyboard.
+* On desktop, move the current window to the specified workspace by pressing ![Super](icon/Super.svg) + ![Shift](icon/Shift.svg) + **Number Key** on keyboard.
