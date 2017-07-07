@@ -30,23 +30,23 @@
             <td>剪切</td>
             <td>选定文件或文件夹后，移动到指定的目标存储位置。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>重命名</td>
             <td>选定文件或文件夹后进行重命名操作。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>丢到回收站</td>
             <td>选定文件或文件夹后进行删除操作。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>压缩/解压缩</td>
             <td>选定文件或文件夹后进行压缩操作，压缩文件也可以进行解压操作。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>创建链接</td>
             <td>选定文件或文件夹，创建一个快捷方式。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>属性</td>
             <td>查看文件或文件夹基本信息，以及更改权限和打开方式。</td>
         </tr>
@@ -58,10 +58,10 @@
 
 1. 在桌面上，点击鼠标右键。
 2. 点击 **排序方式**，您可以：
-  - 点击 **按名称**，将按文件的名称顺序显示。
-  - 点击 **按大小**，将按文件的大小顺序显示。
-  - 点击 **按类型**，将按文件的类型顺序显示。
-  - 点击 **按修改时间**，文件将按最近一次的修改日期顺序显示。
+  - 点击 **名称**，将按文件的名称顺序显示。
+  - 点击 **大小**，将按文件的大小顺序显示。
+  - 点击 **类型**，将按文件的类型顺序显示。
+  - 点击 **修改时间**，文件将按最近一次的修改日期顺序显示。
 
 > ![tips](icon/tips.svg)：您也可以勾选 **自动排列**,桌面图标会自动排列，有图标被删除时后面的图标会自动缩进。
 
@@ -84,7 +84,7 @@
 5. 在桌面的空白处点击一下鼠标，退出热区设置。
 
  ![1|hotspace](png/hotspace.png)
- 
+
 > ![tips](icon/tips.svg)：请留意热区设置界面的动画学习热区使用方法，将鼠标移动到屏幕一角并继续向外拖动就可以唤醒对应的热区功能。
 
 
@@ -146,11 +146,11 @@
             <td><img src="icon/datetime_icon.svg" alt="时间和日期" class="inline" /></td>
             <td>点击可打开深度日历</td>
         </tr>
-		<tr>
+    	<tr>
             <td><img src="icon/wireless.svg" alt="无线网络" class="inline" /></td>
             <td>点击可快速设置无线网络</td>
             <td class="blank"></td>
-			<td><img src="icon/trash_icon.svg" alt="回收站" class="inline" /></td>
+    		<td><img src="icon/trash_icon.svg" alt="回收站" class="inline" /></td>
             <td>点击可打开回收站</td>
         </tr>
     </tbody>
@@ -210,7 +210,7 @@
  ![1|showhidetaskbar](png/showhidetaskbar.png)
 
 ### 关机界面
-您可以通过任务栏中的电源图标进入关机界面进行相关操作。
+您可以通过任务栏中的电源图标进入关机界面进行相关操作，也可以在启动器的小窗口模式中点击电源图标。
 
 <table class="block1">
     <caption>在桌面上，点击任务栏上的 ![power](icon/power_icon.svg) 图标。</caption>
@@ -227,15 +227,15 @@
             <td>待机</td>
             <td>在关机界面中点击 ![suspend_normal](icon/suspend_normal.svg)，整个系统将处于低能耗运转的状态。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>锁定</td>
             <td>在关机界面中点击 ![lock_normal](icon/lock_normal.svg)或按下键盘上的 ![Super](icon/Super.svg)+![L](icon/L.svg) 组合键。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>切换用户</td>
             <td>在关机界面中点击 ![userswitch_normal](icon/userswitch_normal.svg)，选择一个用户帐户进行登录。</td>
         </tr>
-		<tr>
+    	<tr>
             <td>注销</td>
             <td>在关机界面中点击 ![logout_normal](icon/logout_normal.svg)，清除当前登录用户的信息。</td>
         </tr>
@@ -269,6 +269,15 @@
 
 > ![tips](icon/tips.svg)：如果系统中有新安装的应用，您可以进入启动器中去查看。对于新安装的应用，它的旁边会出现一个小蓝点提示。
 
+### 切换模式
+- 启动器有全屏和小窗口两种模式。可以通过点击启动器界面右上角的图标切换模式。
+- 两种模式均支持排列应用、搜索应用、设置快捷方式等操作。
+- 小窗口模式还额外支持快速打开文件管理器和快速进入关机界面等功能。
+
+![1|launch](png/launchb.png)![1|launch](png/launchs.png)
+
+
+
 ### 排列应用
 
 在启动器中，系统默认按照名称排列显示所有应用。
@@ -283,7 +292,7 @@
 4. 将鼠标悬停在分类图标上，将显示图标以及文字分类。
 
  ![1|sortapp](png/sortapp.png)
- 
+
 ### 查找应用
 
 在启动器中上下滚动鼠标滚轮可以找到您需要的应用，您也可以通过切换分类导航来更快的找到需要的应用。
@@ -357,22 +366,22 @@
 <table class="block1">
     <tbody>
         <tr>
-		    <td>1</td>
+    	    <td>1</td>
             <td width="80px">顶部信息栏</td>
             <td>显示用户头像、当前系统时间和日期。</td>
         </tr>
         <tr>
-		    <td>2</td>
+    	    <td>2</td>
             <td>应用控件栏</td>
             <td>显示控制中心设置导航，可以点击鼠标快速跳转到对应的设置模块，也可以切到换天气模块查看天气。</td>
         </tr>
         <tr>
-		    <td>3</td>
+    	    <td>3</td>
             <td>系统控件栏</td>
             <td>显示音乐媒体播放、调节音量、调节亮度控件。</td>
         </tr>
-		<tr>
-		    <td>4</td>
+    	<tr>
+    	    <td>4</td>
             <td>底部工具栏</td>
             <td>显示蓝牙、VPN、无线网络、屏幕投射、多屏设置等按钮。</td>
         </tr>
@@ -386,7 +395,7 @@
 
 #### 创建新帐户
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![account_normal](icon/account_normal.svg)。
 2. 点击**创建帐户**。
 3. 输入新帐户的用户名、密码和重复密码。
 4. 点击 **创建**。
@@ -396,7 +405,7 @@
 
 #### 更改帐户头像
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![account_normal](icon/account_normal.svg)。
 2. 点击列表中已有的帐户。
 3. 点击**修改头像**，进入修改头像界面。
 4. 选择系统自带头像或添加本地头像，头像就替换完成了。
@@ -408,21 +417,21 @@
 
 #### 更改帐户密码
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![account_normal](icon/account_normal.svg)。
 2. 点击列表中已有的帐户。
 3. 点击**修改密码**，进入修改密码页面。
 4. 输入当新密码、重复密码。
 
 #### 自动登录
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击![account_normal](icon/account_normal.svg)。
 2. 点击列表中已有的帐户。
 3. 点击 **自动登录** 开关按钮，开启自动登录功能。
 
 
 #### 删除帐户
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![account_normal](icon/account_normal.svg)。
 2. 点击列表中已有的帐户。
 3. 点击 **删除账户** 。
 4. 在弹出的确认界面中点击 **删除**。
@@ -437,14 +446,14 @@
 
 ##### 设置分辨率
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![display_normal](icon/display_normal.svg)。
 2. 点击 **分辨率**，进入分辨率设置界面。
 3. 在列表中中选择合适的分辨率参数。
 
 
 ##### 设置屏幕方向
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![display_normal](icon/display_normal.svg)。
 2. 点击 **旋转**，开始旋转屏幕。
 3. 每点击一下鼠标左键屏幕顺时针旋转90°。
 4. 旋转完成后点击鼠标右键退出旋转界面
@@ -462,16 +471,17 @@
 
 ##### 自定义设置
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![display_normal](icon/display_normal.svg)。
 2. 点击显示设置中的 **自定义设置**。
 3. 在弹出的菜单中设置自定义参数。
 4. 点击 **应用**。
 
 #### 屏幕投射
 
-1. 在控制中心面板首页，将鼠标移动到 ![active](icon/active.svg) 图标上。
-2. 选择想要投射到的设备。
-3. 投射成功后设备名称后面显示 √ 图标，再次点击可以取消屏幕投射。
+1. 在控制中心面板首页，点击 ![display_normal](icon/display_normal.svg)。
+2. 选择 **屏幕投射**。
+3. 选择想要投射到的设备。
+4. 投射成功后设备名称后面显示 √ 图标，再次点击可以取消屏幕投射。
 
 >![notes](icon/notes.svg)：屏幕投射需要无线网卡来支持相关功能，屏幕投射到其他设备上会占用无线网卡，此时电脑无法使用Wi-Fi网络。
 
@@ -482,7 +492,7 @@
 
 #### 选择默认程序
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![default_applications_normal](icon/default_applications_normal.svg)。
 2. 点击 **默认程序**，进入修改默认程序设置界面。
 3. 在列表中选择系统中各种文件默认打开的应用程序。
 
@@ -490,7 +500,7 @@
 
 #### 添加默认程序
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![default_applications_normal](icon/default_applications_normal.svg)。
 2. 点击 **默认程序**，进入修改默认程序设置界面。
 3. 点击各类型列表下的 **添加**。
  - 选择默认程序是*.desktop文件时，在列表中自动添加新的图标和名称。
@@ -504,7 +514,7 @@
 
 系统默认程序不能删除，如果要从默认程序列表中删除系统已经安装的应用，只能通过卸载对应的应用，默认程序列表会自动删除该应用。
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![default_applications_normal](icon/default_applications_normal.svg)。
 2. 点击 **默认程序**，进入修改默认程序设置界面。
 3. 点击 **编辑**，添加的默认程序可以被删除。
 4. 点击删除，删除默认程序。
@@ -519,17 +529,17 @@
 #### 设置主题
 您可以分别设置系统的窗口主题、图标主题、光标主题。
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![personalization_normal](icon/personalization_normal.svg)。
 2. 点击 **主题**，进入设置主题界面。
  - 在窗口主题列表中，选择一款窗口样式进行切换。
- - 在图标主题列表中，选择一款图标样式进行切换。
+ - 在图标主题列表中，选择一s款图标样式进行切换。
  - 在光标主题列表中，选择一款光标进行切换。
 
 
 
 #### 设置字体
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![personalization_normal](icon/personalization_normal.svg)。
 2. 点击 **字体**，进入设置字体界面。
 3. 设置系统显示字体的类型和大小。
 
@@ -545,7 +555,7 @@
 
 #### 蓝牙开关
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![bluetooth_normal](icon/bluetooth_normal.svg)。
 2. 点击 **蓝牙**，进入设置蓝牙界面。
 3. 点击蓝牙开关按钮，开启蓝牙功能。
 
@@ -553,7 +563,7 @@
 
 #### 蓝牙名称
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![bluetooth_normal](icon/bluetooth_normal.svg)。
 2. 点击 **蓝牙**，进入设置蓝牙界面。
 3. 点击蓝牙名称旁边的编辑图标,输入新的蓝牙名称。
 
@@ -563,7 +573,7 @@
 
 #### 蓝牙设备
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![bluetooth_normal](icon/bluetooth_normal.svg)。
 2. 点击 **蓝牙**，进入设置蓝牙界面。
 3. 在 **其他设备** 列表中，系统扫描附近的蓝牙设备并自动连接。
 4. 连接成功后自动添加到 **我的设备** 列表中。
@@ -578,7 +588,7 @@
 
 #### 网络信息
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![network_normal](icon/network_normal.svg)。
 2. 点击 **网络详情**，进入网络信息界面。
 3. 查看当前网卡的有线网络或无线网络信息。
 
@@ -586,7 +596,7 @@
 
 1. 将网线插入电脑上的网络插孔。
 2. 将网线的另一端插入路由器或网络端口。
-3. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+3. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 4. 点击 **有线网卡** 开关按钮，开启有线网络连接功能。
 5. 当网络连接成功后，在桌面将会弹出“已连接有线连接”的提示信息。
 
@@ -594,7 +604,7 @@
 
 ##### 连接无线局域网
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **无线局域网**，进入无线局域网界面。
 3. 点击 **无线网络** 开关按钮，开启无线网络连接功能。
 4. 电脑会自动搜索并显示附近可用的无线网络。
@@ -604,7 +614,7 @@
 
 ##### 连接隐藏网络
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **无线局域网**，进入网络信息界面。
 3. 点击 **连接到隐藏网络**，进入连接到隐藏网络界面。
 4. 输入隐藏网络名称、选择加密方式和密码。
@@ -612,7 +622,7 @@
 #### 移动网络
 
 1. 将移动网卡插入电脑上的USB接口中。
-2. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+2. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 3. 系统根据移动网卡和运营商信息自动适配并自动连接网络。
 4. 点击 **移动网络**，查看详细设置信息。
 
@@ -620,20 +630,20 @@
 
 ##### 新建宽带连接
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **新建宽带连接**，进入新建宽带连接界面。
 3. 输入宽带名称、帐户、密码。
 4. 点击 **新建**，系统自动创建宽带连接并尝试连接。
 
 ##### 设置宽带连接
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **宽带连接**，进入宽带连接设置界面。
 3. 修改名称、帐户、密码、开启自动连接、设置IP地址以及开启其他认证服务。
 
 #### VPN
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **新建VPN**，进入新建VPN界面。
 3. 选择VPN协议类型。
 4. 输入名称、网关、代理地址等信息。
@@ -641,7 +651,7 @@
 
 #### 系统代理
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![network_normal](icon/network_normal.svg)。
 2. 点击 **系统代理**，进入系统代理界面。
  - 点击 **无**，关闭代理服务器功能。
  - 点击 **手动**，输入代理服务器的地址和端口信息。
@@ -654,7 +664,7 @@
 
 #### 设置扬声器
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![sound_normal](icon/sound_normal.svg)。
 2. 点击 **扬声器**开关按钮，打开扬声器。
 3. 调节输出音量，和左右声道平衡。
 
@@ -662,18 +672,18 @@
 
 #### 设置麦克风
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![sound_normal](icon/sound_normal.svg)。
 2. 点击 **麦克风**开关按钮，打开扬声器。
 3. 调节输入音量。
 
 #### 设置系统音效
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![sound_normal](icon/sound_normal.svg)。
 2. 点击 **麦克风**开关按钮，开启系统音效。
 
 #### 高级设置
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![sound_normal](icon/sound_normal.svg)。
 2. 点击 **高级设置**。
 3. 选择输入和输出模式。
 
@@ -683,28 +693,28 @@
 
 #### 自动同步
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击  ![time](icon/time.svg)。
 2. 点击 **自动同步**开关按钮，开启时间自动同步功能。
 3. 系统会通过网络自动同步系统默认时区的本地时间和日期。
 
 #### 设置时间和日期
 手动设置时间和自动同步功能相互排斥，手动设置后自动同步功能会被关闭。
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![time](icon/time.svg)。
 2. 点击 **设置时间**开关按钮，开启时间自动同步功能。
 3. 输入正确的时间和日期。
 4. 点击 **确定**。
 
 #### 添加时区
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![time](icon/time.svg)。
 2. 点击 **添加时区**。
 3. 通过搜索或点击地图选择时区。
 4. 点击 **确定**。
 
 #### 编辑时区列表
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![time](icon/time.svg)。
 2. 点击时区列表行末尾的 **编辑**。
 3. 此时时区列表上的时区行出现删除图标。
 4. 点击删除图标删除已添加的时区。
@@ -715,17 +725,17 @@
 
 #### 设置显示器休眠时间
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![power_normal](icon/power_normal.svg)。
 2. 选择显示器进入休眠的时间。
 
 #### 设置休眠后锁屏时间
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![power_normal](icon/power_normal.svg)。
 2. 选择电脑进入休眠的时间。
 
 #### 安全设置
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![power_normal](icon/power_normal.svg)。
 2. 点击 **显示器睡眠后需要密码**/**唤醒需要密码** 开关按钮，开启相关安全设置。
 
 > ![notes](icon/notes.svg)：笔记本的电源管理还有 **笔记本合盖时睡眠**开关按钮，您可以根据需要设置。
@@ -734,7 +744,7 @@
 
 ![0|mouse](png/mouse.png)
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![mouse_touchpad_normal](icon/mouse_touchpad_normal.svg)。
 2. 点击 **左手**/**自然滚动**/**输入时禁用触摸板**/**插入鼠标时禁用触摸板** 开关按钮，开启相关功能。
 3. 调节 **双击速度** 和 **指针移动速度**。
 
@@ -747,7 +757,7 @@
 
 #### 设置键盘属性
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 调节 **重复延迟**/**重复速度**。
 3. 点击 **请在此测试**，按下键盘上任意字母不松，查看调节效果。
 4. 点击 **大写锁定提示** 开关按钮，开启相关功能。
@@ -757,27 +767,27 @@
 
 ##### 添加键盘布局
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **键盘布局**，进入键盘布局界面。
 3. 点击 **添加键盘布局**，进入添加键盘布局列表界面。
 4. 按字母或搜索需要添加的语言键盘布局。
 
 ##### 删除键盘布局
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **键盘布局**，进入键盘布局界面。
 3. 点击键盘布局后的 **编辑** > **删除**，选中需要删除的键盘布局。
 
 ##### 切换键盘布局
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **键盘布局**，进入键盘布局界面。
 3. 选择一个键盘布局进行切换。
 4. 当切换键盘布局成功后，在使用的语言后将显示为已选择。
 
 #### 设置系统语言
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **系统语言**，进入系统语言界面。
 3. 选择或搜索需要切换的语言，系统将自动开始安装语言包。
 4. 语言包安装完成后，在使用的语言后将显示为已选择。
@@ -787,19 +797,19 @@
 #### 设置快捷键
 ##### 查看快捷键
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **快捷键**，进入快捷键设置界面。
 3. 查看默认的系统快捷键、窗口快捷键和工作区快捷键。
 
 ##### 搜索快捷键
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **快捷键**，进入快捷键设置界面。
 3. 在顶部的搜索框中输入关键字，搜索栏会自动列出包含关键字的所有快捷键。
 
 ##### 修改快捷键
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **快捷键**，进入快捷键设置界面。
 3. 点击需要修改的快捷键。
 4. 使用键盘输入新的快捷键。
@@ -808,7 +818,7 @@
 
 ##### 自定义快捷键
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![keyboard_normal](icon/keyboard_normal.svg)。
 2. 点击 **添加自定义快捷键**，进入添加快捷键界面。
 3. 输入快捷键名称、快捷键对应的命令行、快捷键。
 4. 添加成功后，点击自定义快捷键后的 **编辑** > **删除**,删除自定义的快捷键。
@@ -820,7 +830,7 @@
 
 #### 查看系统信息
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![system_info_normal](icon/system_info_normal.svg)。
 2. 在 **系统信息** 下，您可以：
  - 查看当前使用的操作系统的版本号。
  - 查看当前使用的操作系统是64位/32位。
@@ -830,7 +840,7 @@
 
 #### 查看版权协议
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![system_info_normal](icon/system_info_normal.svg)。
 2. 点击 **版权协议**，进入版权协议详情界面。
 3. 查看GNU通用公共许可协议详细信息。
 
@@ -841,13 +851,13 @@
 
 ##### 默认启动系统
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![system_info_normal](icon/system_info_normal.svg)。
 2. 点击 **启动菜单**，进入启动菜单界面。
 3. 点击鼠标选中启动菜单项后，直接向上或向下拖拽菜单项来调节系统启动顺序。
 
 ##### 启动界面背景
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![system_info_normal](icon/system_info_normal.svg)。
 2. 点击 **启动菜单**，进入启动菜单界面。
 3. 按住鼠标左键不放，将需要使用的图片拖拽到预览窗口中更换背景。
 
@@ -858,14 +868,14 @@
 
 #### 开启自动更新
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![update](icon/update.svg)。
 2. 点击 **更新设置**。
 3. 点击 **自动下载更新** 开关按钮，开启自动检查更新功能。
-3. 当系统存在更新时，将自动下载更新。
+4. 当系统存在更新时，将自动下载更新。
 
 #### 切换服务器
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![update](icon/update.svg)。
 2. 点击 **更新设置**。
 3. 点击 **切换镜像源**。
 4. 系统自动进行速度检测。
@@ -873,7 +883,7 @@
 
 #### 更新和升级
 
-1. 在控制中心面板首页，点击 ![moresettings](icon/moresettings_icon.svg)。
+1. 在控制中心面板首页，点击 ![update](icon/update.svg)。
 2. 点击 **更新**，进入检查系统更新界面。
 3. 点击 **检查更新**，自动检查当前系统状态。
  - 如果系统没有更新将会提示“系统已经是最新的”。

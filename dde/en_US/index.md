@@ -8,7 +8,7 @@ deepin is an elegant, easy to use and reliable Linux desktop operating system de
 ## Desktop|../common/desk.svg|
 You can create new file/folder, sort files, set hot corners and wallpapers, etc. on desktop.
 
-![0|rightbuttonmenu](png/rightbuttonmenu.png)
+![0|contextmenu](png/contextmenu.png)
 
 ### Create New File/Folder
 You can create new folder, common documents, or doing general operations for files on desktop, just like in file manager.
@@ -73,7 +73,7 @@ You can set the screen resolution, brightness and so on.
 1. Right click on desktop.
 2. Click on **Display settings** to open the interface of display settings in Control Center.
 
-> ![notes](icon/notes.svg): Specific operations refers to [Display Settings](#Display Settings)。
+> ![notes](icon/notes.svg): Specific operations refers to [Display Settings](#Display Settings).
 
 ### Set Hot Corners
 Hot Corner is to simplify your operations and helps you quickly enter the main interface.
@@ -216,13 +216,16 @@ You can hide the Dock to extend the operational area on desktop furthest.
  ![1|showhidetaskbar](png/showhidetaskbar.png)
 
 ### Shutdown Interface
-You can enter the shutdown interface by clicking on the battery icon on Dock.
+There are two ways to shut down:
+
+1. Click on the battery icon on Dock.
+2. Click on the battery icon in the bottom right corner of Launcher mini mode.
 
 <table class="block1">
     <caption>On desktop, click on ![power](icon/power_icon.svg) on Dock.</caption>
     <tbody>
         <tr>
-            <td width="30px">Shutdown</td>
+            <td width="30px">Shut down</td>
             <td width="100px">Click on ![poweroff_normal](icon/poweroff_normal.svg) on the Shutdown Interface or press ![Enter](icon/Enter.svg) on keyboard.</td>
         </tr>
         <tr>
@@ -274,6 +277,14 @@ Empty trash to release more usable space in your disk.
 Launcher can help you to manage all installed applications, you can quickly find the needed application by the categorized navigation or searching function.
 
 > ![tips](icon/tips.svg): You can view the newly installed applications in Launcher, it will show a blue point for these applications.
+
+
+### Switch Mode
+
+Users can switch between fullscreen mode and mini mode manually. The location of mini mode will go with that of Dock.
+
+ ![1|fullscreen](png/fullscreen.png)
+ ![1|mini](png/mini.png)
 
 ### Sort Applications
 
@@ -392,7 +403,7 @@ You can protect your privacy and data and get security protection by setting acc
 
 #### Create New Account
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
 2. Click on **Create Account**.
 3. Input the new user's name, type password twice.
 4. Click on **Create**.
@@ -402,7 +413,7 @@ You can protect your privacy and data and get security protection by setting acc
 
 #### Modify Account Avatar
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
 2. Click on an existed account in the list.
 3. Click on **Modify Avatar** to enter the interface for modifing avatar.
 4. Select a default avatar or local avatar to finish.
@@ -414,21 +425,21 @@ You can protect your privacy and data and get security protection by setting acc
 
 #### Modify Account Password
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
 2. Click on an existed account in the list.
 3. Click on **Modify Password** enter the interface for modifing password.
 4. Input new password twice and confirm.
 
 #### Auto Login
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
 2. Click on an existed account in the list.
 3. Click on **Auto Login** to open auto login function.
 
 
 #### Delete Account
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
 2. Click on an existed account in the list.
 3. Click on **Delete Account** .
 4. In the confirm interface, click on **Delete**.
@@ -443,14 +454,14 @@ You can adjust the visual perception by setting the screen resolution, brightnes
 
 ##### Set Resolution
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
 2. Click on **Resolution** to enter the interface for resolution settings.
 3. Select the proper resolution in the list.
 
 
 ##### Set Screen Direction
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
 2. Click on **Rotate** to rotate the screen.
 3. Everytime you click the mouse, the screen will rotate 90 degrees clockwise.
 4. Click on the right mouse button to exit the rotate screen interface.
@@ -459,7 +470,7 @@ You can adjust the visual perception by setting the screen resolution, brightnes
 #### Multiple Screen Settings
 Widen your horizon by multiple screens! You can use VGA cable to connect your computer to other display devices.
 
-1. On the homepage of Control Center, click on ![dd](icon/dd.svg).
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
 2. Select an multiple screen mode:
 - **Copy** to copy the setting of main screen to others.
 - **Extend** to extend the display area of main screen.
@@ -468,14 +479,15 @@ Widen your horizon by multiple screens! You can use VGA cable to connect your co
 
 ##### Custom Settings
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
 2. Click on **Custom Settings**.
 3. Set custom settings on the popup menu.
 4. Click on **Apply**.
 
 #### Screen Projection
 
-1. On the homepage of Control Center, move the mouse pointer to ![active](icon/active.svg).
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg) to open the display settings.
+2. Move the mouse pointer to ![active](icon/active.svg).
 2. Select the device to project.
 3. There will be a √ icon followed the device name, click again to cancel projection.
 
@@ -489,7 +501,7 @@ When installed multiple applications in the same type, you can choose one of the
 
 #### Select Default Applications
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![default_applications_normal](icon/default_applications_normal.svg).
 2. Click on **Default Applcations** to enter the settings interface for modifing default applications.
 3. Select the applications in the list.
 
@@ -497,7 +509,7 @@ When installed multiple applications in the same type, you can choose one of the
 
 #### Add Default Applications
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![default_applications_normal](icon/default_applications_normal.svg).
 2. Click on **Default Applcations** to enter the settings interface for modifing default applications.
 3. Click on **Add** in different types:
 - When you selected a *.desktop file for default application, the icon and name will be added to the list automatically.
@@ -511,7 +523,7 @@ When installed multiple applications in the same type, you can choose one of the
 
 System default applications cannot be deleted, if you wanted to delete an installed application from the list, you can only uninstall this application.
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![default_applications_normal](icon/default_applications_normal.svg).
 2. Click on **Default Applications** to enter the settings interface for modifing default applications.
 3. Click on **Edit** to delete the added default applications.
 4. Click on **Delete**.
@@ -526,7 +538,7 @@ You can change the appearance of desktop by using different desktop icons, windo
 #### Set Theme
 You can set the window theme, icon theme and cursor theme of the system respectively.
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![personalization_normal](icon/personalization_normal.svg).
 2. Click on **Theme** to enter the interface for setting themes.
 - In window theme list, select a window style to switch.
 - In icon theme list, select a icon style to switch.
@@ -536,7 +548,7 @@ You can set the window theme, icon theme and cursor theme of the system respecti
 
 #### Set Font
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![personalization_normal](icon/personalization_normal.svg).
 2. Click on **Font** to enter the interface for setting fonts.
 3. Set the font type and size for the system.
 
@@ -552,7 +564,7 @@ You can do short distance wireless communication by Bluetooth by connecting to o
 
 #### Enable Bluetooth
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![bluetooth_normal](icon/bluetooth_normal.svg).
 2. Click on **Bluetooth** to enter the interface for setting Bluetooth.
 3. Click on the Bluetooth switch to enable the Bluetooth adapter.
 
@@ -560,7 +572,7 @@ You can do short distance wireless communication by Bluetooth by connecting to o
 
 #### Bluetooth Name
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![bluetooth_normal](icon/bluetooth_normal.svg).
 2. Click on **Bluetooth** to enter the interface for setting Bluetooth.
 3. Click on the edit icon near the Bluetooth name, enter the new name.
 
@@ -570,12 +582,11 @@ You can do short distance wireless communication by Bluetooth by connecting to o
 
 #### Bluetooth Device
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![bluetooth_normal](icon/bluetooth_normal.svg).
 2. Click on **Bluetooth** to enter the interface for setting Bluetooth.
 3. In **Other Devices** list, the system will scan the nearby devices and auto connect them.
 4. The device will be added to the **My Device** list after successfully connected.
 5. In **My Device** list, you can **Disconnect** and **Ignore this Device**.
-
 
 
 ### Network Settings
@@ -585,7 +596,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 #### Network Info
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Network Details** to enter the network info interface.
 3. View the network info for current wired or wireless network.
 
@@ -593,7 +604,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 1. Plug the cable into the network slot on computer.
 2. Plug another end of the cable into the router or network port.
-3. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+3. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 4. Click on **Wired Network Card** switch to enable wired network.
 5. After successfully connected to the network, it will prompts "Wired Connection Connected".
 
@@ -601,7 +612,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 ##### Connect to Wi-Fi Network
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Wi-Fi** to enter wireless network interface.
 3. Click on **Wireless Network** switch to enable wireless network.
 4. The computer will auto search the nearby available wireless network.
@@ -611,7 +622,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 ##### Connect to Hidden Network
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Wi-Fi** to enter wireless network interface.
 3. Click on **Connect to Hidden Network** to enter the interface for connecting to the hidden network.
 4. Enter the name of the network and choose the encrypt method, then enter the password.
@@ -619,7 +630,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 #### Mobile Network
 
 1. Plug the mobile netowrk card to the USB port.
-2. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+2. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 3. The system will auto connect to the network based on the mobile network card and operator info.
 4. Click on **Mobile Network** to view the detailed settings info.
 
@@ -627,20 +638,20 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 ##### Create New DSL/PPPoE Connection
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Create PPPoE Connection** to enter the interface for creating DSL/PPPoE connections.
 3. Enter the name, account and password.
 4. Click on **Save** and the system will create the connection and try to connect to it.
 
 ##### Set DSL/PPPoE Connection
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **PPPoE Connection**to enter the interface for setting DSL/PPPoE connections.
 3. Modify name, account, password, open automatically connect, set IP address or open other auth services.
 
 #### VPN
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Create VPN** to enter the interface for creating VPN connections.
 3. Select VPN protocol type.
 4. Enter name, gateway and proxy address, etc.
@@ -648,7 +659,7 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 #### System Proxy
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **System Proxy** to enter the interface for setting system proxy.
 - Click on **None** to disable the proxy function.
 - Click on **Manually** and enter the address and port for proxy servers.
@@ -661,7 +672,7 @@ Set your speaker and microphone to let you sound comfortable and sing better.
 
 #### Set Speaker
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![sound_normal](icon/sound_normal.svg).
 2. Click on **Speaker** switch to enable the speaker.
 3. Adjust the output volume and left right balance.
 
@@ -669,18 +680,18 @@ Set your speaker and microphone to let you sound comfortable and sing better.
 
 #### Set Microphone
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![sound_normal](icon/sound_normal.svg).
 2. Click on **Microphone** switch to enable the microphone.
 3. Adjust the input volume.
 
 #### Set System Sound Effect
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![sound_normal](icon/sound_normal.svg).
 2. Click on **Sound Effects** switch to enable system effects sound.
 
 #### Advanced Settings
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![sound_normal](icon/sound_normal.svg).
 2. Click on **Advanced**.
 3. Select input and output mode.
 
@@ -690,28 +701,28 @@ Set your speaker and microphone to let you sound comfortable and sing better.
 
 #### Auto Sync
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![date_time_normal](icon/date_time_normal.svg).
 2. Click on **Auto-Sync** switch to enable time sync function.
 3. The system will auto sync the time and date based on local timezone and remote time.
 
 #### Set Date and Time
 Set the date and time manually to disable the auto sync function.
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![date_time_normal](icon/date_time_normal.svg).
 2. Click on **Time Settings** button to set the time manually.
 3. Enter the correct date and time.
 4. Click on **Confirm**.
 
 #### Add Timezome
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![date_time_normal](icon/date_time_normal.svg).
 2. Click on **Add Timezone**。
 3. Select a timezone by searching or clicking on the map.
 4. Click on **Confirm**.
 
 #### Edit Timezone List
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![date_time_normal](icon/date_time_normal.svg).
 2. Click on the **Edit** in the end of the timezone list.
 3. Click on the delete button to remove an added timezone.
 
@@ -721,17 +732,17 @@ Set the date and time manually to disable the auto sync function.
 
 #### Set Monitor Suspend Time
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![power_normal](icon/power_normal.svg).
 2. Set the monitor suspend time.
 
 #### Set Lock Time After Suspend
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![power_normal](icon/power_normal.svg).
 2. Set the computer suspend time.
 
 #### Security Settings
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![power_normal](icon/power_normal.svg).
 2. Click on **Password required to wake up the monitor**/**Password required to wake up the computer** switch to enable security settings.
 
 > ![notes](icon/notes.svg): There is an option for laptop, named **Suspend on lid close**, you can set it by your needs.
@@ -740,7 +751,7 @@ Set the date and time manually to disable the auto sync function.
 
 ![0|mouse](png/mouse.png)
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![mouse_touchpad_normal](icon/mouse_touchpad_normal.svg).
 2. Click on **Left Hand**/**Natural Scrolling**/**Disable the touchpad while typing**/**Disable the touchpad when inserting the mouse** switch to enable functions.
 3. Adjust **Double Click Speed** and **Pointer Speed**.
 
@@ -753,7 +764,7 @@ You can choose your keyboard and its layout for different countries and regions 
 
 #### Set Keyboard Properties
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Adjust **Repeat Delay**/**Repeat Speed**。
 3. Click on **Please Test Here** to test the effect.
 4. Click on **Caps Lock Prompt** switch to enable the function.
@@ -763,27 +774,27 @@ The system default keyboard layout is US keyboard, but you can add other layouts
 
 ##### Add Keyboard Layout
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on !keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Keyboard Layout** to enter the interface for setting layouts.
 3. Click on **Add Keyboard Layout**.
 4. Search the keyboard layout you want to add.
 
 ##### Delete Keyboard Layout
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Keyboard Layout** to enter the interface for setting layouts.
 3. Click on **Edit** > **Delete** on the keyboard layout to delete it.
 
 ##### Switch Keyboard Layout
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Keyboard Layout** to enter the interface for setting layouts.
 3. Select a Layout to switch.
 4. When successfully switched a layout, it will display the selected layout.
 
 #### Set System Language
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on ** System Language** to enter the interface for choosing system language.
 3. Select or search the language to switch and the system will install the language package automatically.
 4. The selected language will be displayed after successfully installed.
@@ -793,19 +804,19 @@ The system default keyboard layout is US keyboard, but you can add other layouts
 #### Set Shortcuts
 ##### View Shortcuts
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Shortcut** to enter the interface for setting the shortcuts.
 3. You can view the default shortcuts for system, window and workspace.
 
 ##### Search Shortcuts
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Shortcut** to enter the interface for setting the shortcuts.
 3. Enter keywords on the top search box and it will show all the found shortcuts.
 
 ##### Modify Shortcuts
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
 2. Click on **Shortcut** to enter the interface for setting the shortcuts.
 3. Click on the shortcut you want to modify.
 4. Enter new shortcuts by keyboard.
@@ -814,10 +825,43 @@ The system default keyboard layout is US keyboard, but you can add other layouts
 
 ##### Custom Shortcuts
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
-2. Click on **Add Custom Shortcut** to enter the interface for adding shortcuts.
-3. Enter the name, related command and shortcut.
-4. When successfully added a shortcut, you can click on **Edit** > **Delete** on the custom shortcut to delete it.
+1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
+2. Click on **Shortcut** to enter the interface for setting the shortcuts.
+3. Click on **Add Custom Shortcut** to enter the interface for adding shortcuts.
+4. Enter the name, related command and shortcut.
+5. When successfully added a shortcut, you can click on **Edit** > **Delete** on the custom shortcut to delete it.
+
+### Update Settings
+You can check the updates for system and applications, and also can modify mirror, upgrade the system and applications.
+
+![0|update](png/update.png)
+
+#### Open Auto Update
+
+1. On the homepage of Control Center, click on ![update](icon/update.svg).
+2. Click on **Update Settings** to enter the detailed interface.
+3. Click on **Auto-download Updates** to enable the function.
+4. When there are system updates, it will prompt a message.
+
+#### Switch Mirror
+
+1. On the homepage of Control Center, click on ![update](icon/update.svg).
+2. Click on **Update Settings** to enter the detailed interface.
+3. Click on **Switch Mirror** to enter the switching mirror interface.
+4. The system will detect the connecting speed.
+5. Switch to a new mirror to refresh the package list.
+
+#### Update and Upgrade
+
+1. On the homepage of Control Center, click on ![update](icon/update.svg).
+2. Click on **Update** to check the current system status.
+- It will prompt "Your system is up to date " when there is no update.
+- It will show **Download and install updates** button, size and detailed information if there's update.
+4. Click the button to download and install.
+5. After updated successfully, you can choose to shut down, reboot now or later.
+
+> ![attention](icon/attention.svg): There will be a progress bar during the update, and you can choose to download in background or pause.
+
 
 ### System Info
 You can view system version, hardware info or set boot menu.
@@ -826,7 +870,7 @@ You can view system version, hardware info or set boot menu.
 
 #### View System Info
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![system_info_normal](icon/system_info_normal.svg).
 2. Under **System Information**, you can:
 - View current system version.
 - View current system type, 64Bit/32Bit.
@@ -836,7 +880,7 @@ You can view system version, hardware info or set boot menu.
 
 #### View Copyright License
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![system_info_normal](icon/system_info_normal.svg).
 2. Click on **License** to enter the License interface.
 3. View detailed information of GNU License.
 
@@ -847,44 +891,16 @@ You can view system version, hardware info or set boot menu.
 
 ##### Default Boot System
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![system_info_normal](icon/system_info_normal.svg).
 2. Click on **Startup Menu** to enter the startup menu interface.
 3. Click to select boot entry and drag and drop to adjust boot order.
 
 ##### Boot Splash Background
 
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
+1. On the homepage of Control Center, click on ![system_info_normal](icon/system_info_normal.svg).
 2. Click on **Startup Menu** to enter the startup menu interface.
 3. Press and hold the left mouse button to drag the background image and drop it over the preview image to change the background.
 
-### Update Settings
-You can check the updates for system and applications, and also can modify mirror, upgrade the system and applications.
-
-![0|update](png/update.png)
-
-#### Open Auto Update
-
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
-2. Click on **Auto-download Updates** switch to enable the function.
-3. When there are system updates, it will prompt a message.
-
-#### Switch Mirror
-
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
-2. Click on **Switch Mirror** to enter the switching mirror interface.
-3. The system will detect the connecting speed.
-4. Switch to a new mirror to refresh the package list.
-
-#### Update and Upgrade
-
-1. On the homepage of Control Center, click on ![moresettings](icon/moresettings_icon.svg).
-2. Click on **Update** to check the current system status.
-- It will prompt "Your system is up to date " when there is no update.
-- It will show **Download Updates** button, the date size and detailed information if there's update.
-4. Click on **Download Updates** to download the update data.
-5. After downloaded the data, Click on **Restart to install updates**.
-
-> ![attention](icon/attention.svg): The system will show a fullscreen update interface when upgrading, and it will restart after finished, please do not shut down the computer during this time.
 
 ## Window Manager|../common/window.svg|
 The Window Manager can show different windows on different workspaces, you can manage the windows by it.
