@@ -1,7 +1,7 @@
 # 深度桌面环境|../common/deepin-system.svg|
 
 ## 概述|../common/icon_overview.svg|
-深度操作系统是深度科技发行的美观易用、安全可靠的国产桌面操作系统。深度系统预装了 WPS Office、搜狗输入法、有道词典以及一系列深度特色应用。它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，深度操作系统将会被越来越多的用户所喜爱和使用。
+深度操作系统是深度科技发行的美观易用、安全可靠的国产桌面操作系统。深度系统预装了搜狗输入法、有道词典以及一系列深度特色应用。它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，深度操作系统将会被越来越多的用户所喜爱和使用。
 
 ![1|desk](png/desk.png)
 
@@ -106,7 +106,7 @@
 ### 任务栏图标
 您可以在启动器中将应用图标创建快捷方式到任务栏上，同时对任务栏上的应用程序进行相关操作。
 
-![1|taskbar](png/taskbar.png)
+![1|efficient](png/efficient.png)
 
 <table class="block1">
     <caption>图标说明</caption>
@@ -132,43 +132,20 @@
             <td><img src="icon/controlcenter_icon.svg" alt="控制中心" class="inline" /></td>
             <td>点击可打开控制中心面板</td>
         </tr>
-        <tr>
-            <td><img src="icon/network_icon.svg" alt="网络设置" class="inline" /></td>
-            <td>点击可打开网络设置界面</td>
-            <td class="blank"></td>
-            <td><img src="icon/sound_icon.svg" alt="声音设置" class="inline" /></td>
-            <td>点击可以快速调节音量</td>
-        </tr>
-        <tr>
-            <td><img src="icon/battery.svg" alt="关机和电源" class="inline" /></td>
-            <td>显示电量，点击可快速进入关机界面</td>
-            <td class="blank"></td>
-            <td><img src="icon/datetime_icon.svg" alt="时间和日期" class="inline" /></td>
-            <td>点击可打开深度日历</td>
-        </tr>
-    	<tr>
-            <td><img src="icon/wireless.svg" alt="无线网络" class="inline" /></td>
-            <td>点击可快速设置无线网络</td>
-            <td class="blank"></td>
-    		<td><img src="icon/trash_icon.svg" alt="回收站" class="inline" /></td>
-            <td>点击可打开回收站</td>
-        </tr>
     </tbody>
 </table>
-
-> ![tips](icon/tips.svg)：当您使用台式机电脑时，仅显示为![power_icon](icon/power_icon.svg) 图标，当您使用笔记本电脑时，系统默认采用 ![battery](icon/battery.svg) 图标默认显示剩余电量，将鼠标置于图标上时显示剩余电量百分比，点击快速进入关机界面。
 
 
 ### 切换显示模式
 任务栏提供两种显示模式：时尚模式和高效模式。
 
-- **时尚模式**：任务栏的显示风格类似于Mac OS，以托盘的形式停靠在屏幕下方。任务栏上会显示所有固定在任务栏的应用图标。
 - **高效模式**：任务栏的显示风格类似于Windows 7，以小长条的形式显示在屏幕下方。固定在任务栏上的应用图标默认为小图标显示，而且相同类型的图标会合并在一起以腾出更多的空间给其他图标使用。
+- **时尚模式**：任务栏的显示风格类似于Mac OS，以托盘的形式停靠在屏幕下方。任务栏上会显示所有固定在任务栏的应用图标。
 
 
- ![1|fasion](png/fasion.png)
+![1|efficient](png/efficient.png) 
 
- ![1|efficient](png/efficient.png)
+![1|fasion](png/fasion.png)
 
 
 您可以通过以下操作来切换显示模式：
@@ -213,7 +190,7 @@
 您可以通过任务栏中的电源图标进入关机界面进行相关操作，也可以在启动器的小窗口模式中点击电源图标。
 
 <table class="block1">
-    <caption>在桌面上，点击任务栏上的 ![power](icon/power_icon.svg) 图标。</caption>
+    <caption>图标说明</caption>
     <tbody>
         <tr>
             <td width="30px">关机</td>
@@ -274,7 +251,9 @@
 - 两种模式均支持排列应用、搜索应用、设置快捷方式等操作。
 - 小窗口模式还额外支持快速打开文件管理器和快速进入关机界面等功能。
 
-![1|launch](png/launchb.png)![1|launch](png/launchs.png)
+![1|launch](png/launchs.png)
+
+![1|launch](png/launchb.png)
 
 
 
@@ -884,14 +863,15 @@
 #### 更新和升级
 
 1. 在控制中心面板首页，点击 ![update](icon/update.svg)。
-2. 点击 **更新**，进入检查系统更新界面。
-3. 点击 **检查更新**，自动检查当前系统状态。
+2. 点击 **更新**，自动检查当前系统状态。
  - 如果系统没有更新将会提示“系统已经是最新的”。
  - 如果系统存在更新，将显示 **下载更新** 按钮以及更新数据大小和更新详情列表。
-4. 点击 **下载更新**，系统自动开始下载更新数据。
-5. 下载完成后，点击 **重启安装更新**。
+4. 点击 **下载更新**，系统自动开始下载并更新数据。
+5. 更新完成后更新界面会出现 **更新成功** 提示。
 
-> ![attention](icon/attention.svg)：系统会全屏显示更新画面进行升级操作，升级完成以后将重启进入系统，在升级过程中请勿强制关机。
+
+
+> ![notes](icon/notes.svg)更新完后以会定时弹出对话框提醒用户 **重启** 或 **关机**。
 
 ## 窗口管理器|../common/window.svg|
 窗口管理器可以在不同的工作区内展示不同的窗口内容，通过窗口管理器您可以对桌面窗口进行分组管理。
