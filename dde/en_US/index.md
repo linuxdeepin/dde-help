@@ -67,6 +67,18 @@ You can sort the files on desktop to fit your needs.
 
 > ![tips](icon/tips.svg): You can also check **Auto arrange**, the desktop icons will be arranged automatically, and when some of the icons are removed, others will fill in the blanks.
 
+### Adjust Icon Size
+
+1. Right click on desktop.
+2. Click on **Icon size**, you can:
+
+ - Click on **Tiny** to display icons in tiny size.
+ - Click on **Small** to display icons in small size.
+ - Click on **Medium** to display icons in medium size. 
+ - Click on **Large** to display icons in large size. 
+ - Click on **Super large** to display icons in super large size.
+
+
 ### Set Display
 You can set the screen resolution, brightness and so on.
 
@@ -98,6 +110,14 @@ You can select some elegant and fashionable wallpapers to beautify desktop and m
 
 ![1|wallpapers](png/wallpapers.png)
 
+
+### Drag and Drop Icon
+
+You can drag and drop icon to the location you want on desktop:
+- Drag and drop an icon between two icons, the icon will be displayed between the two;
+- Drag and drop icon to a program is to open the file by that program;
+- Drag and drop icon to Trash is to move the file to Trash;
+- Drag and drap icon to folder is to move file to folder;
 
 ## Dock|../common/dock.svg|
 Dock is usually displayed at the bottom of the desktop to help you fix frequently used applications, it is mainly made of Launcher, application icons, tray, shutdown button and system datetime, etc.
@@ -183,7 +203,7 @@ You can switch the display mode by the following operations:
 2. Right click to select **Mode**.
 3. Select a display mode.
 
- ![1|showmode](png/showmode.png)
+ ![1|mode](png/mode.png)
 
 ### Set Dock Location
 You can place the Dock on any direction of your desktop.
@@ -192,19 +212,17 @@ You can place the Dock on any direction of your desktop.
 2. Right click to select **Location**.
 3. Select a location.
 
- ![1|showside](png/showside.png)
+ ![1|location](png/location.png)
 
 ### Adjust Dock Size
-You can adjust the size of Dock to fit your needs.
 
 1. On desktop, move the mouse pointer over Dock.
 2. Right click to select **Size**.
 3. Select a size.
 
- ![1|showbig](png/showbig.png)
+ ![1|size](png/size.png)
 
 ### Show/Hide Dock
-You can hide the Dock to extend the operational area on desktop furthest.
 
 1. On desktop, move the mouse pointer over Dock.
 2. Right click to select **Status**.
@@ -213,7 +231,22 @@ You can hide the Dock to extend the operational area on desktop furthest.
 - Select **Keep Hidden**, Dock will be hidden and only displayed when mouse hovering on Dock.
 - Select **Smart Hide**, Dock will be automatically hidden when Dock area needs to be used.
 
- ![1|showhidetaskbar](png/showhidetaskbar.png)
+ ![1|status](png/status.png)
+
+
+### Show/Hide Plugins
+
+1. On desktop, move the mouse pointer over Dock.
+2. Right click to select **Plugins**.
+3. On submenu, you can:
+- Check **Network**, the network icon will be displayed on Dock.
+- Check **Power**, the power icon will be displayed on Dock.
+- Check **Sound**, the sound icon will be displayed on Dock.
+- Check **Datetime**, the Datetime icon will be displayed on Dock.
+
+> ![notes](icon/notes.svg): Unchek the plugin icon, it will be hidden on Dock.
+
+ ![1|plugins](png/plugins.png)
 
 ### Shutdown Interface
 There are two ways to shut down:
@@ -248,6 +281,9 @@ There are two ways to shut down:
             <td>Log Out</td>
             <td>Click on ![logout_normal](icon/logout_normal.svg) on the Shutdown Interface, to clear the current account information by logging out.</td>
         </tr>
+        <tr>
+            <td>Start system monitor</td>
+            <td>Click on ![monitor](icon/monitor.svg) on the Shutdown Interface, to start system monitor.</td>
     </tbody>
  </table>
 
@@ -410,7 +446,6 @@ You can protect your privacy and data and get security protection by setting acc
 5. Input password on the auth page and the new account will be added to the account list.
 
 
-
 #### Modify Account Avatar
 
 1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
@@ -420,7 +455,6 @@ You can protect your privacy and data and get security protection by setting acc
 
 
 >![notes](icon/notes.svg): You can click on the user avatar to directly enter the **Accounts** interface.
-
 
 
 #### Modify Account Password
@@ -437,6 +471,25 @@ You can protect your privacy and data and get security protection by setting acc
 3. Click on **Auto Login** to open auto login function.
 
 
+#### Login without Password
+
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
+2. Click on an existed account in the list.
+3. Click on **Login without password**, you can enter into the system without password.
+
+
+#### Set Fingerprint Password
+
+1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
+2. Click on an existed account in the list.
+3. Click on **Fingerprint Password** to open auto login function.
+4. Click on **Add Fingerprint** to enter the adding interface.
+5. Put the finger in fingerprint reader, and then click on **Done** after added successfully.
+
+![0|fingerprint1](png/fingerprint1.png)
+
+
+
 #### Delete Account
 
 1. On the homepage of Control Center, click on ![account_normal](icon/account_normal.svg).
@@ -444,13 +497,23 @@ You can protect your privacy and data and get security protection by setting acc
 3. Click on **Delete Account** .
 4. In the confirm interface, click on **Delete**.
 
+>![notes](icon/notes.svg): The current login user can not be deleted.
+
+
 ### Display Settings
 You can let your computer reach the best performance by setting the resolution, direction and extend screens of the monitor(s).
 
-![0|video](png/video.png)
+![0|display](png/display.png)
+
 
 #### Single Screen Settings
 You can adjust the visual perception by setting the screen resolution, brightness and so on.
+
+##### Set Display Scaling
+
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
+2. Click on the scaleplate to adjust the display scaling (1, 1.25, 1.5, 1.75, 2.0).
+3. It will take effect after reboot.
 
 ##### Set Resolution
 
@@ -458,6 +521,12 @@ You can adjust the visual perception by setting the screen resolution, brightnes
 2. Click on **Resolution** to enter the interface for resolution settings.
 3. Select the proper resolution in the list.
 
+##### Set Brighness
+
+1. On the homepage of Control Center, click on ![display_normal](icon/display_normal.svg).
+2. Click on **Brightness** to enter the interface for brightness settings.
+  - Enable **Auto-brightness**, the brightness will be auto adjusted by computer camera.
+  - Enable **Night Shift**, the screen tone will be auto adjusted by help of figuring out your location.
 
 ##### Set Screen Direction
 
@@ -545,13 +614,18 @@ You can set the window theme, icon theme and cursor theme of the system respecti
 - In cursor theme list, select a set of cursor to switch.
 
 
-
 #### Set Font
 
 1. On the homepage of Control Center, click on ![personalization_normal](icon/personalization_normal.svg).
 2. Click on **Font** to enter the interface for setting fonts.
 3. Set the font type and size for the system.
 
+
+#### Enable Window Effect
+
+1. On the homepage of Control Center, click on ![personalization_normal](icon/personalization_normal.svg).
+2. Click on **Enable window effect** to enable the window effect.
+3. Click again to disable.
 
 
 ### Bluetooth Settings
@@ -569,13 +643,11 @@ You can do short distance wireless communication by Bluetooth by connecting to o
 3. Click on the Bluetooth switch to enable the Bluetooth adapter.
 
 
-
 #### Bluetooth Name
 
 1. On the homepage of Control Center, click on ![bluetooth_normal](icon/bluetooth_normal.svg).
 2. Click on **Bluetooth** to enter the interface for setting Bluetooth.
 3. Click on the edit icon near the Bluetooth name, enter the new name.
-
 
 
 > ![notes](icon/notes.svg): After successfully modified the name, the Bluetooth adapter will broadcast its new name, other devices need to search for the new name.
@@ -594,11 +666,6 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 ![0|internet](png/internet.png)
 
-#### Network Info
-
-1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
-2. Click on **Network Details** to enter the network info interface.
-3. View the network info for current wired or wireless network.
 
 #### Wired Network
 
@@ -627,6 +694,16 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 3. Click on **Connect to Hidden Network** to enter the interface for connecting to the hidden network.
 4. Enter the name of the network and choose the encrypt method, then enter the password.
 
+
+
+#### Hotspot
+
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
+2. Click on **Hotspot** to enter hotspot interface.
+3. Click on the switch to enable or disable hotspot.
+4. Click on **Hotspot Settings** to view the details or custom name and password.
+
+
 #### Mobile Network
 
 1. Plug the mobile netowrk card to the USB port.
@@ -653,9 +730,22 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 
 1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
 2. Click on **Create VPN** to enter the interface for creating VPN connections.
-3. Select VPN protocol type.
-4. Enter name, gateway and proxy address, etc.
-5. Click on **Save** and the system will try to connect to it.
+3. After created a VPN, you can click on **Export VPN** to export the configured file. 
+4. Then click on **Import VPN** to import the existed VPN file.
+
+> ![notes](icon/notes.svg): If you don't want to use the VPN as the default routing, click on **Only applied in corresponding resources**.
+
+
+#### Application Proxy
+
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
+2. Click on **Application Proxy** to enter the interface for setting application proxy.
+- Click on **Proxy Type** to select the proxy type.
+- Fill in IP address, port, username, Password
+3. Click on **OK** to save and click on **Cancel** to return previous interface.
+
+> ![notes](icon/notes.svg): After configured, right click on an application in Launcher to check **Open by proxy**, then the application proxy will be opened.
+
 
 #### System Proxy
 
@@ -664,6 +754,14 @@ Experience the enjoyment of surfing the Internet! You can browse news, play vide
 - Click on **None** to disable the proxy function.
 - Click on **Manually** and enter the address and port for proxy servers.
 - Click on **Auto** and enter URL to let the system config the proxy info automatically.
+
+
+#### Network Info
+
+1. On the homepage of Control Center, click on ![network_normal](icon/network_normal.svg).
+2. Click on **Network Details** to enter the network info interface.
+3. View the network info for current wired or wireless network.
+
 
 ### Sound Settings
 Set your speaker and microphone to let you sound comfortable and sing better.
@@ -760,8 +858,8 @@ Set the date and time manually to disable the auto sync function.
 ### Keyboard and Language
 You can choose your keyboard and its layout for different countries and regions or view, search, modify and custom shortcuts.
 
-![0|keyboarde](png/keyboarde.png)
-
+![0|keyboard](png/keyboard.png)
+s
 #### Set Keyboard Properties
 
 1. On the homepage of Control Center, click on ![keyboard_normal](icon/keyboard_normal.svg).
@@ -842,6 +940,13 @@ You can check the updates for system and applications, and also can modify mirro
 2. Click on **Update Settings** to enter the detailed interface.
 3. Click on **Auto-download Updates** to enable the function.
 4. When there are system updates, it will prompt a message.
+
+
+#### Auto Clear Package Cache
+
+1. On the homepage of Control Center, click on ![update](icon/update.svg).
+2. Click on **Auto clear package cache**.
+3. The system cache will be auto cleared.
 
 #### Switch Mirror
 
